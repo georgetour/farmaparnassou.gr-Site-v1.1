@@ -1,0 +1,18 @@
+//Body layout
+@mixin body-small{
+  color: white;
+  background: url("../../images/home-page/sheeps-hi-res-small-screens-compressor.jpg")no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+}
+
+//Restores font to normal size
+@mixin normal-font{
+  font-size: medium;
+}
+
+
+
+
+
