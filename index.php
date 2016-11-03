@@ -10,10 +10,12 @@
     <link  href="css/bootstrap.min.css" rel="stylesheet" type="text/css" >
 
     <!--Custom Stylesheets for each screen-->
-    <link  href="css/smallscreen/smallscreen.css" rel="stylesheet" type="text/css">
+    <link href="css/customStylesheet.min.css" rel="stylesheet" type="text/css">
 
     <!--Font Awesome Icons-->
     <link href="css/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
 </head>
 
 <body>
@@ -44,31 +46,44 @@
             </a>
             </li>
         </ul>
+
      </div>
 
      <!--Right column-->
-     <div class="col-xs-7 text-right">
+     <div class="col-xs-7 text-right footer-rights">
         <div >farmaparnassou.gr 2013-2016 All rights reserved</div>
         <div><a href="http://www.besmartbesimple.com/" target="_blank">Created by George Tourtsinakis</a></div>
      </div>
-    </div>
+    </div><!--End row-->
     <div class="normal-font">Τηλέφωνο : 2104800090</div>
 </footer><!--End footer-->
-
 <header class="header"><!--Main header -->
-    <div><img class="img-test" src="images/logo.png" alt="Φάρμα Παρνασσού λογότυπο"></div>
-    <h1 class="text-center quote"><i>Αγάπη στην αξία της διατροφής με ελληνική ποιότητα!<i/></h1>
+    <div class="row">
+
+        <div class="col-xs-5  col-sm-6">
+            <table class="hours-table">
+                <tr><th>Ωράριo</th></tr>
+                <tr><td>Δευ-Τετ-Σαβ <br>8:00-18:00</td></tr>
+                <tr><td>Τρίτη-Πέμπτη-Παρασκευή<br>8:00-21:00</td></tr>
+            </table>
+        </div>
+        <div class="col-xs-7  col-sm-6">
+        <img class="img-logo" src="images/logo.png" alt="Φάρμα Παρνασσού λογότυπο">
+        <h1 class="text-center quote"><i>Αγάπη στην αξία της διατροφής με ελληνική ποιότητα!<i/></h1>
+        </div>
+    </div>
 </header><!--End main header-->
 
 </div><!--End container-->
 
 
 <!--========BOTTOM ============-->
-<div class="row">
+
 <!--Navbar-->
-<div class="col-sm-12 col-xs-6">
- <nav class="navbar navbar-default navbar-fixed-bottom">
-    <div class="container-fluid">
+
+<div class="bottom-row">
+ <nav class="navbar navbar-default ">
+
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -101,16 +116,19 @@
                 <li><a href="#">Επικοινωνία</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
-    </div><!--End container-fluid -->
+
  </nav><!--End navbar-->
 </div>
+    <div id="hours" >
+        <div>hellgasdfgasffgsdao</div>
+    </div>
 
 
 
-</div><!--End row-->
+<!--End row-->
 <!--============End Bottom======================-->
-
 <script  src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">   </script>
+
 </body>
 </html>

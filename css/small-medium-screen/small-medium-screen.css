@@ -37,4 +37,11 @@ th, td {
   padding: 2px;
   text-align: center; }
 
-/*# sourceMappingURL=smallscreen.css.map */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .img-logo {
+    width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto; } }
+
+/*# sourceMappingURL=small-medium-screen.css.map */

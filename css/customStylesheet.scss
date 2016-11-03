@@ -1,0 +1,24 @@
+//Full layout
+@import "variables";
+@import "general-mixins";
+
+@font-face {
+  font-family: 'Greek';
+  src: url(fonts/GFSSolomos.otf);
+}
+
+ul{
+  padding: 0;
+}
+
+//Screens to 480px
+@import 'smallscreen/smallscreen';
+
+
+.quote {
+   font-family:'Greek';
+   margin: 10px 0;
+ }
+//From 481px to 767px
+@import "small-medium-screen/small-medium-screen";
+

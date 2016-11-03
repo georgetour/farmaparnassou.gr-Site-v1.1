@@ -1,0 +1,26 @@
+@import "../variables.scss";
+@import "../general-mixins";
+
+//==========Small to Medium screens==============
+@media only screen and (min-width:481px) and(max-width:768px) {
+
+  .img-logo{
+    width: 130px;
+    @include img-center;
+  }
+
+  .social-icons{
+    padding-top: 5px;
+    margin-left: 25px;
+  }
+
+  #hours{
+    display: none;
+  }
+
+  .footer-rights{
+    font-size:6px;
+    opacity: 0.6;
+  }
+
+}

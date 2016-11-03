@@ -1,94 +1,53 @@
-@import "smallscreen-mixins";
 @import "../variables.scss";
 @import "../general-mixins";
 
-@font-face {
-  font-family: 'Greek';
-  src: url(../fonts/GFSSolomos.otf);
-}
 
-//Body layout
-@mixin body-small{
-  color: white;
-  background: url("../../images/home-page/sheeps-hi-res-small-screens-compressor.jpg")no-repeat center center fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-}
 
-//Restores font to normal size
-@mixin normal-font{
-  font-size: medium;
-}
+@media only screen and (max-width:480px){
 
-html{
- @include html-full;
-}
-
-body{
-  @include body-small;
-  @include body-zero;
-}
-
-footer{
-  font-size: $really-small;
-  padding-top: 10px;
-   li:not(:first-child){
-    margin-left: 5px;
+  //Restores font to normal size
+  @mixin normal-font{
+    font-size: medium;
   }
-}
 
-ul {
-  padding: 0;
-  list-style: none;
-}
 
-.footer-rights{
-  margin-bottom: 5px;
-}
-
-a{
-  color: white;
-  &:visited{
-    color: white;
+  footer{
+    font-size: $really-small;
+    padding-top: 10px;
+    li:not(:first-child){
+      margin-left: 5px;
+    }
   }
-  &:link{
-    text-decoration: none;
+
+  .footer-rights{
+    margin-bottom: 5px;
   }
-}
 
-.normal-font{
-  @include normal-font;
-}
-
-.header{
-  padding-top: 20px;
-}
-
-.img-test{
-  width: 70%;
-  @include img-center;
-}
-
-
-
-.quote {
-  font-family:'Greek';
-  margin: 10px 0;
-}
-
-.badge{
-  &.facebook{
-    @include social-icons($facebook);
+  .normal-font{
+    @include normal-font;
   }
-  &.twitter{
-    @include social-icons($twitter);
+
+  .header{
+    padding-top: 20px;
   }
-  &.pinterest{
-    @include social-icons($pinterest);
+
+  .img-logo{
+    width:200px;
+    @include img-center;
   }
-  &.instagram{
-    @include instagram-pallete;
+
+  .footer-rights{
+    font-size:6px;
+    opacity: 0.6;
   }
+
+
+  #hours{
+    display: none;
+  }
+
+
 }
+
+
 
