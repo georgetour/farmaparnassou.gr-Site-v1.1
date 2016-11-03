@@ -1,3 +1,25 @@
+.social-icons li {
+  display: inline-block; }
+
+.navbar-default {
+  background-color: #10230f; }
+  .navbar-default .navbar-brand {
+    color: white; }
+
+.navbar-default.navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: white; }
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  font-size: large; }
+
+.display-inline {
+  display: inline-block; }
+
+@font-face {
+  font-family: 'Greek';
+  src: url(../fonts/GFSSolomos.otf); }
 html {
   height: 100%;
   min-height: 100%; }
@@ -7,7 +29,9 @@ body {
   background: url("../../images/home-page/sheeps-hi-res-small-screens-compressor.jpg") no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
-  -moz-background-size: cover; }
+  -moz-background-size: cover;
+  margin: 0;
+  padding: 0; }
 
 footer {
   font-size: 8px;
@@ -18,8 +42,6 @@ footer {
 ul {
   padding: 0;
   list-style: none; }
-  ul li {
-    display: inline-block; }
 
 .footer-rights {
   margin-bottom: 5px; }
@@ -42,5 +64,18 @@ a {
   display: block;
   margin-right: auto;
   margin-left: auto; }
+
+.quote {
+  font-family: 'Greek';
+  margin: 10px 0; }
+
+.badge.facebook {
+  background-color: #3b5998; }
+.badge.twitter {
+  background-color: #1dcaff; }
+.badge.pinterest {
+  background-color: #cb2027; }
+.badge.instagram {
+  background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00); }
 
 /*# sourceMappingURL=smallscreen.css.map */

@@ -1,6 +1,54 @@
+//html 100%
+@mixin html-full{
+  height:100%;
+  min-height:100%;
+}
+
+//Body zero
+@mixin body-zero {
+  margin: 0;
+  padding: 0;
+}
 //Image center trick
 @mixin img-center{
   display:block;
   margin-right: auto;
   margin-left: auto;
 }
+
+//Social icons display
+@mixin social-icons($color){
+  background-color: $color;
+}
+.social-icons{
+  & li{
+    display: inline-block;
+  }
+}
+//Special palette for instagram icon
+@mixin instagram-pallete{
+  background: linear-gradient( #400080, transparent), linear-gradient(200deg, #d047d1, #ff0000,    #ffff00);
+
+}
+
+.navbar-default{
+  background-color:#10230f ;
+  .navbar-brand{
+    color: white;
+  }
+}
+
+.navbar-default.navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  font-size: large;
+}
+
+.display-inline{
+  display: inline-block;
+}
+
