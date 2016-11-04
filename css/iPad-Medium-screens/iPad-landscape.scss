@@ -10,7 +10,7 @@
   }
 
   .quote{
-    font-size: 53px;
+    font-size: 58px;
   }
 
   .footer-rights{
@@ -25,11 +25,14 @@
 
   .social-icons{
     margin-top: 20px;
-    text-align: center;
     li{
       margin-right: 10px;
     }
 
+  }
+
+  .header{
+    padding: 20px 20px 0 0;
   }
 
   .phone,.hours-table{
@@ -37,12 +40,9 @@
 
   }
 
-  .phone{
-    display: inline-block;
+  .footer-big-screens{
+    display: none;
   }
-
-
-
 
 
 }

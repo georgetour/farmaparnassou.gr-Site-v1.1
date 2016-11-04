@@ -21,11 +21,13 @@
 
 <body>
 <div class="container"><!--Main container-->
-<footer ><!--Footer start --->
+
     <div class="row">
+
      <!--Left column-->
-     <div class="col-xs-5 col-sm-6">
-        <ul class="social-icons">
+     <div class="col-xs-5 col-sm-6 ">
+     <address class="hours"><!--Address and social media icons start --->
+         <ul class="social-icons">
             <li>
                 <a class="badge social facebook" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
                 <i class="fa fa-facebook fa-size"></i>
@@ -47,34 +49,27 @@
             </a>
             </li>
         </ul>
-
-     </div>
+         <div class="phone">
+         <div>Τηλέφωνο : 2104800090</div>
+             <div>Ωράριo</div>
+             <div>Δευ-Τετ-Σαβ <br>8:00-18:00</div>
+             <div>Τρίτη-Πέμπτη-Παρασκευή<br>8:00-21:00</div>
+         </div>
+     </address><!--Address and social media icons start--->
+     </div><!--End left column-->
 
      <!--Right column-->
-     <div class="col-xs-7 col-sm-6 text-right footer-rights">
-        <div >farmaparnassou.gr 2013-2016 All rights reserved</div>
-        <div><a href="http://www.besmartbesimple.com/" target="_blank">Created by George Tourtsinakis</a></div>
-     </div>
+      <div class="col-xs-7 col-sm-6 ">
+            <footer class="footer-rights text-right ">
+                <div >farmaparnassou.gr 2013-2016 All rights reserved</div>
+                <div><a href="http://www.besmartbesimple.com/" target="_blank">Created by beSmartbeSimple.com</a></div>
+            </footer>
+            <header class="header">
+                <img class="img-logo" src="images/logo.png" alt="Φάρμα Παρνασσού λογότυπο">
+                <h1 class="text-center quote">Αγάπη στην αξία της διατροφής με ελληνική ποιότητα!</h1>
+            </header>
+       </div> <!--End Right column-->
     </div><!--End row-->
-    <div class="phone">Τηλέφωνο : 2104800090</div>
-</footer><!--End footer-->
-
-<header class="header"><!--Main header -->
-    <div class="row">
-
-        <div class="col-xs-5  col-sm-6 ">
-            <table class="hours-table" >
-                <tr><th>Ωράριo</th></tr>
-                <tr><td>Δευ-Τετ-Σαβ <br>8:00-18:00</td></tr>
-                <tr><td>Τρίτη-Πέμπτη-Παρασκευή<br>8:00-21:00</td></tr>
-            </table>
-        </div>
-        <div class="col-xs-7  col-sm-6">
-        <img class="img-logo" src="images/logo.png" alt="Φάρμα Παρνασσού λογότυπο">
-        <h1 class="text-center quote">Αγάπη στην αξία της διατροφής με ελληνική ποιότητα!</h1>
-        </div>
-    </div>
-</header><!--End main header-->
 
 </div><!--End container-->
 
@@ -115,7 +110,11 @@
                 <li><a href="#">Τι είπαν για εμάς</a></li>
                 <li><a href="#">Επικοινωνία</a></li>
             </ul>
+            <footer class="footer-big-screens">
+                <div >farmaparnassou.gr 2013-2016 All rights reserved<br> <a href="http://www.besmartbesimple.com/" target="_blank">Created by beSmartbeSimple.com</div>
+            </footer>
         </div><!-- /.navbar-collapse -->
+
 
  </nav><!--End navbar-->
 

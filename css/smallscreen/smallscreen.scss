@@ -12,10 +12,15 @@
 
   footer{
     font-size: $really-small;
-    padding-top: 10px;
-    li:not(:first-child){
-      margin-left: 5px;
-    }
+
+  }
+
+  .hours{
+    margin-top: 12px;
+  }
+
+  .quote{
+    font-size:30px ;
   }
 
   .footer-rights{
@@ -27,11 +32,11 @@
   }
 
   .header{
-    padding-top: 20px;
+    padding: 20px 20px 0 0;
   }
 
   .img-logo{
-    width:200px;
+    width:180px;
     @include img-center;
   }
 
@@ -40,7 +45,9 @@
     opacity: 0.6;
   }
 
-
+  .footer-big-screens{
+    display: none;
+  }
 }
 
 

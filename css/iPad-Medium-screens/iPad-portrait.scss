@@ -2,15 +2,15 @@
 @import "../general-mixins";
 
 //=========iPad Landscape resolutions================
-@media only screen and (min-width:1024px) and(max-width:1200px) {
+@media only screen and (min-width:1024px) and(max-width:1199px) {
 
   .img-logo{
-    width: 340px;
+    width: 240px;
     @include img-center;
   }
 
   .quote{
-    font-size: 53px;
+    font-size: 55px;
   }
 
   .footer-rights{
@@ -24,7 +24,7 @@
 
 
   .social-icons{
-    margin: 20px 0 0 50px;
+    margin-top: 20px;
 
     li{
       margin-right: 10px;
@@ -32,14 +32,17 @@
 
   }
 
+  .header{
+      padding: 20px 10px 0 0;
+  }
+
   .phone,.hours-table{
-    font-size: 25px;
+    font-size: 20px;
 
   }
 
-  .phone{
-    display: inline-block;
-
+  .footer-big-screens{
+    display: none;
   }
 
 

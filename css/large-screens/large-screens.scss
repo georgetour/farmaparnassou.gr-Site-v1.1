@@ -1,0 +1,46 @@
+@import "../variables.scss";
+@import "../general-mixins";
+
+//=========Big Screens above 1200px=============
+@media only screen and (min-width:1199px){
+
+  .footer-rights{
+    display: none;
+  }
+
+  .fa-size{
+    font-size: $large-size !important;
+  }
+
+  .social-icons{
+    margin-top: 20px;
+    li{
+      margin-right: 10px;
+    }
+
+  }
+
+  .header{
+    padding: 20px 20px 0 0;
+  }
+
+  .img-logo{
+    width: 280px;
+    @include img-center;
+  }
+
+
+  .footer-big-screens{
+    padding-top: 10px;
+    font-size: 9px;
+    text-align: center;
+  }
+
+  .phone,.hours-table{
+    font-size: 22px;
+
+  }
+  .quote{
+    font-size: 55px;
+  }
+}
