@@ -2,14 +2,13 @@
 @import "../general-mixins";
 
 
-
+//===========Small Screens=======================
 @media only screen and (max-width:480px){
 
   //Restores font to normal size
   @mixin normal-font{
     font-size: medium;
   }
-
 
   footer{
     font-size: $really-small;
@@ -39,11 +38,6 @@
   .footer-rights{
     font-size:6px;
     opacity: 0.6;
-  }
-
-
-  #hours{
-    display: none;
   }
 
 

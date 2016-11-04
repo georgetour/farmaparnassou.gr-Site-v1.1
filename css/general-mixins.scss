@@ -20,6 +20,22 @@ body{
 
 }
 
+@font-face {
+  font-family: 'Greek';
+  src: url(fonts/GFSSolomos.otf);
+}
+
+
+.quote {
+  font-family:'Greek';
+  margin: 10px 0;
+}
+
+ul{
+  padding: 0;
+}
+
+
 a{
   color: white;
 }

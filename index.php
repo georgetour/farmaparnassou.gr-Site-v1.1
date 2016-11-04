@@ -11,6 +11,7 @@
 
     <!--Custom Stylesheets for each screen-->
     <link href="css/customStylesheet.min.css" rel="stylesheet" type="text/css">
+    <link href="test.css" rel="stylesheet" type="text/css">
 
     <!--Font Awesome Icons-->
     <link href="css/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -23,26 +24,26 @@
 <footer ><!--Footer start --->
     <div class="row">
      <!--Left column-->
-     <div class="col-xs-5">
+     <div class="col-xs-5 col-sm-6">
         <ul class="social-icons">
             <li>
                 <a class="badge social facebook" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
-                <i class="fa fa-facebook"></i>
+                <i class="fa fa-facebook fa-size"></i>
                 </a>
             </li>
             <li>
                 <a class="badge social twitter" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
-                <i class="fa fa-twitter"></i>
+                <i class="fa fa-twitter fa-size"></i>
                 </a>
             </li>
             <li>
                 <a class="badge social instagram" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
-                <i class="fa fa-instagram"></i>
+                <i class="fa fa-instagram fa-size"></i>
                 </a>
             </li>
             <li>
                 <a class="badge social pinterest" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
-                <i class="fa fa-pinterest"></i>
+                <i class="fa fa-pinterest fa-size"></i>
             </a>
             </li>
         </ul>
@@ -50,18 +51,19 @@
      </div>
 
      <!--Right column-->
-     <div class="col-xs-7 text-right footer-rights">
+     <div class="col-xs-7 col-sm-6 text-right footer-rights">
         <div >farmaparnassou.gr 2013-2016 All rights reserved</div>
         <div><a href="http://www.besmartbesimple.com/" target="_blank">Created by George Tourtsinakis</a></div>
      </div>
     </div><!--End row-->
-    <div class="normal-font">Τηλέφωνο : 2104800090</div>
+    <div class="phone">Τηλέφωνο : 2104800090</div>
 </footer><!--End footer-->
+
 <header class="header"><!--Main header -->
     <div class="row">
 
-        <div class="col-xs-5  col-sm-6">
-            <table class="hours-table">
+        <div class="col-xs-5  col-sm-6 ">
+            <table class="hours-table" >
                 <tr><th>Ωράριo</th></tr>
                 <tr><td>Δευ-Τετ-Σαβ <br>8:00-18:00</td></tr>
                 <tr><td>Τρίτη-Πέμπτη-Παρασκευή<br>8:00-21:00</td></tr>
@@ -69,7 +71,7 @@
         </div>
         <div class="col-xs-7  col-sm-6">
         <img class="img-logo" src="images/logo.png" alt="Φάρμα Παρνασσού λογότυπο">
-        <h1 class="text-center quote"><i>Αγάπη στην αξία της διατροφής με ελληνική ποιότητα!<i/></h1>
+        <h1 class="text-center quote">Αγάπη στην αξία της διατροφής με ελληνική ποιότητα!</h1>
         </div>
     </div>
 </header><!--End main header-->
@@ -80,9 +82,7 @@
 <!--========BOTTOM ============-->
 
 <!--Navbar-->
-
-<div class="bottom-row">
- <nav class="navbar navbar-default ">
+ <nav class="navbar navbar-default navbar-fixed-bottom ">
 
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -118,10 +118,7 @@
         </div><!-- /.navbar-collapse -->
 
  </nav><!--End navbar-->
-</div>
-    <div id="hours" >
-        <div>hellgasdfgasffgsdao</div>
-    </div>
+
 
 
 

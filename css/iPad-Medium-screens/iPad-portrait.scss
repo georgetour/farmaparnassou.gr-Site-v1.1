@@ -1,0 +1,46 @@
+@import "../variables.scss";
+@import "../general-mixins";
+
+//=========iPad Landscape resolutions================
+@media only screen and (min-width:1024px) and(max-width:1200px) {
+
+  .img-logo{
+    width: 340px;
+    @include img-center;
+  }
+
+  .quote{
+    font-size: 53px;
+  }
+
+  .footer-rights{
+    font-size:12px;
+    opacity: 0.6;
+  }
+
+  .fa-size{
+    font-size: $ipad-size !important;
+  }
+
+
+  .social-icons{
+    margin: 20px 0 0 50px;
+
+    li{
+      margin-right: 10px;
+    }
+
+  }
+
+  .phone,.hours-table{
+    font-size: 25px;
+
+  }
+
+  .phone{
+    display: inline-block;
+
+  }
+
+
+}

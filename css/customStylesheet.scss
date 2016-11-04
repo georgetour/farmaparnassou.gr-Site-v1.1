@@ -2,23 +2,18 @@
 @import "variables";
 @import "general-mixins";
 
-@font-face {
-  font-family: 'Greek';
-  src: url(fonts/GFSSolomos.otf);
-}
 
-ul{
-  padding: 0;
-}
 
 //Screens to 480px
 @import 'smallscreen/smallscreen';
 
 
-.quote {
-   font-family:'Greek';
-   margin: 10px 0;
- }
 //From 481px to 767px
 @import "small-medium-screen/small-medium-screen";
+
+//From 768px to 1023px
+@import "iPad-Medium-screens/iPad-landscape";
+
+//From 1024px to 1200px
+@import "iPad-Medium-screens/iPad-portrait";
 
