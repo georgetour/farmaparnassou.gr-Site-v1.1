@@ -155,9 +155,16 @@ a{
   padding: 15px;
   text-align: center;
 }
-
-th,td{
-  padding: 2px;
-  text-align: center;
+#horizontal-menu {
+  background-color: $navbar-color;
+  color: white;
+  li {
+    a{
+      color: white;
+    }
+  }
 }
 
+.arrow-angle{
+  display: none;
+}

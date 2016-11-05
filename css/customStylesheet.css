@@ -102,9 +102,14 @@ a {
   padding: 15px;
   text-align: center; }
 
-th, td {
-  padding: 2px;
-  text-align: center; }
+#horizontal-menu {
+  background-color: #10230f;
+  color: white; }
+  #horizontal-menu li a {
+    color: white; }
+
+.arrow-angle {
+  display: none; }
 
 html {
   height: 100%;
@@ -210,9 +215,14 @@ a {
   padding: 15px;
   text-align: center; }
 
-th, td {
-  padding: 2px;
-  text-align: center; }
+#horizontal-menu {
+  background-color: #10230f;
+  color: white; }
+  #horizontal-menu li a {
+    color: white; }
+
+.arrow-angle {
+  display: none; }
 
 @media only screen and (max-width: 480px) {
   footer {
@@ -349,9 +359,14 @@ a {
   padding: 15px;
   text-align: center; }
 
-th, td {
-  padding: 2px;
-  text-align: center; }
+#horizontal-menu {
+  background-color: #10230f;
+  color: white; }
+  #horizontal-menu li a {
+    color: white; }
+
+.arrow-angle {
+  display: none; }
 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
   .img-logo {
@@ -476,9 +491,14 @@ a {
   padding: 15px;
   text-align: center; }
 
-th, td {
-  padding: 2px;
-  text-align: center; }
+#horizontal-menu {
+  background-color: #10230f;
+  color: white; }
+  #horizontal-menu li a {
+    color: white; }
+
+.arrow-angle {
+  display: none; }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .img-logo {
@@ -614,9 +634,14 @@ a {
   padding: 15px;
   text-align: center; }
 
-th, td {
-  padding: 2px;
-  text-align: center; }
+#horizontal-menu {
+  background-color: #10230f;
+  color: white; }
+  #horizontal-menu li a {
+    color: white; }
+
+.arrow-angle {
+  display: none; }
 
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
   .img-logo {
@@ -752,9 +777,14 @@ a {
   padding: 15px;
   text-align: center; }
 
-th, td {
-  padding: 2px;
-  text-align: center; }
+#horizontal-menu {
+  background-color: #10230f;
+  color: white; }
+  #horizontal-menu li a {
+    color: white; }
+
+.arrow-angle {
+  display: none; }
 
 @media only screen and (min-width: 1199px) {
   .footer-rights {
@@ -786,6 +816,35 @@ th, td {
     font-size: 22px; }
 
   .quote {
-    font-size: 55px; } }
+    font-size: 55px; }
+
+  #horizontal-menu {
+    min-width: 680px;
+    padding-left: 0;
+    margin-left: -300px;
+    list-style: none; }
+    #horizontal-menu li {
+      display: inline-block; }
+      #horizontal-menu li a {
+        color: white; }
+        #horizontal-menu li a:hover {
+          color: black;
+          border-radius: 3%;
+          line-height: 33px; }
+    #horizontal-menu ::after {
+      content: "";
+      width: 0px;
+      height: 0px;
+      border-left: 12px solid transparent;
+      border-right: 12px solid transparent;
+      border-top: 12px solid #fff;
+      position: absolute;
+      bottom: -12px;
+      left: 50%;
+      margin-left: -53px; }
+    #horizontal-menu .arrow-angle {
+      display: inline-block; } }
+.dropdown-menu {
+  min-width: 1000px; }
 
 /*# sourceMappingURL=customStylesheet.css.map */

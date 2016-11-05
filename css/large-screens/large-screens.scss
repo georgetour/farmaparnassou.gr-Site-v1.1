@@ -12,6 +12,13 @@
     font-size: $large-size !important;
   }
 
+
+   .arrow-angle {
+
+
+  }
+
+
   .social-icons{
     margin-top: 20px;
     li{
@@ -42,5 +49,44 @@
   }
   .quote{
     font-size: 55px;
+  }
+
+  //This will show the list horizontal
+  #horizontal-menu{
+    min-width: 680px;
+    padding-left: 0;
+    margin-left: -300px;
+    list-style: none;
+    li {
+      display: inline-block;
+
+      a{
+        &:hover{
+        color: black;
+          border-radius: 3%;
+          line-height: 33px;
+      }
+        color: white;
+      }
+    }
+    //The triangle that appears with the bar
+    ::after {
+      content: "";
+      width:0px;
+      height:0px;
+      border-left:12px solid transparent;
+      border-right:12px solid transparent;
+      border-top:12px solid #fff;
+      position:absolute;
+      bottom:-12px;
+      left: 50%;
+      margin-left: -53px;
+    }
+
+    .arrow-angle{
+      display: inline-block;
+    }
+
+
   }
 }

@@ -4,6 +4,8 @@
 //=========iPad Landscape resolutions================
 @media only screen and (min-width:1024px) and(max-width:1199px) {
 
+
+
   .img-logo{
     width: 240px;
     @include img-center;
@@ -44,6 +46,8 @@
   .footer-big-screens{
     display: none;
   }
+
+
 
 
 }

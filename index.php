@@ -53,7 +53,7 @@
          <div>Τηλέφωνο : 2104800090</div>
              <div>Ωράριo</div>
              <div>Δευ-Τετ-Σαβ <br>8:00-18:00</div>
-             <div>Τρίτη-Πέμπτη-Παρασκευή<br>8:00-21:00</div>
+             <div >Τρίτη-Πέμπτη-Παρασκευή<br>8:00-21:00</div>
          </div>
      </address><!--Address and social media icons start--->
      </div><!--End left column-->
@@ -97,16 +97,23 @@
                 <li><a href="#">Το κρεοπωλείο μας</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Προϊόντα <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
+                    <ul id="horizontal-menu" class="dropdown-menu">
+                        <li><a class="arrow-angle" href="#">Κρέατα</a></li>
+                        <img class="arrow-angle" src="images/home-page/arrow-angle.png">
+                        <li><a class="arrow-angle" href="#">Τυριά</a></li>
+                        <img class="arrow-angle" src="images/home-page/arrow-angle.png">
+                        <li><a class="arrow-angle" href="#">Ζυμαρικά - Όσπρια</a></li>
+                        <img class="arrow-angle" src="images/home-page/arrow-angle.png">
+                        <li><a class="arrow-angle" href="#">Κρασιά</a></li>
+                        <img class="arrow-angle" src="images/home-page/arrow-angle.png">
+                        <li><a class="arrow-angle" href="#">Σάλτσες </a></li>
+                        <img class="arrow-angle" src="images/home-page/arrow-angle.png">
+                        <li><a class="arrow-angle" href="#">Μέλι </a></li>
+
                     </ul>
                 </li>
-                <li><a href="#">Συνταγές</a></li>
+                <li><a class="arrow-angle" href="#">Συνταγές</a>
+                </li>
                 <li><a href="#">Τι είπαν για εμάς</a></li>
                 <li><a href="#">Επικοινωνία</a></li>
             </ul>
