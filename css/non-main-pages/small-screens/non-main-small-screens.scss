@@ -1,0 +1,82 @@
+@import "../../variables";
+//Navbar custom
+
+.navbar-custom{
+  height: 50px;
+  line-height: 50px;
+  background-color: $navbar-color;
+  margin-top: 10px;
+}
+
+.menu-info{
+  color: white;
+  vertical-align: top;
+  display: inline-block;
+}
+
+
+.fa-bars{
+  background-color: $navbar-color;
+  font-size: 20px!important;
+  color: $ham-lines;
+  padding: 6px 9px;
+  border: 1px solid;
+  border-color: $ham-border-color;
+  border-radius: 5px;
+  margin: 8px
+
+}
+//Social icons display
+@mixin social-icons($color){
+  background-color: $color;
+}
+.social-icons{
+  & li{
+    display: inline-block;
+  }
+}
+
+
+@mixin instagram-pallete{
+  background: linear-gradient( #400080, transparent), linear-gradient(200deg, #d047d1, #ff0000,    #ffff00);
+
+}
+.badge{
+  &.facebook{
+    @include social-icons($facebook);
+  }
+  &.twitter{
+    @include social-icons($twitter);
+  }
+  &.pinterest{
+    @include social-icons($pinterest);
+  }
+  &.instagram{
+    @include instagram-pallete;
+  }
+}
+
+.hours{
+  padding: 2px 0 0 10px;
+}
+
+.logo{
+  width: 140px;
+}
+
+.logo-absolute{
+  position: absolute;
+  top: 0.5em;
+  left: 14em;
+}
+
+.top-icons-nav{
+  padding-top: 15px;
+  position: absolute;
+  top: -150px;
+}
+
+.menu-links{
+  background-color: $navbar-color;
+  width:100px;
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,cAAc;EACZ,MAAM,EAAE,IAAI;EACZ,gBAAgB,ECIF,OAAO",
+"sources": ["non-main-small-screens.scss","../../variables.scss"],
+"names": [],
+"file": "non-main-small-screens.css"
+}

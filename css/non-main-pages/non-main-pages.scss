@@ -1,0 +1,37 @@
+//html 100%
+html{
+  height:100%;
+  min-height:100%;
+}
+
+.test-border{
+  border: 1px solid black;
+}
+
+//Body zero
+body{
+  margin: 0;
+  padding: 0;
+  color:black;
+  background: url("../../images/history/cowbackground.jpg")no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+
+}
+
+ul{
+  padding: 0;
+}
+
+
+.navbar-default{
+  margin-top: 80px;
+  background-color:#10230f ;
+  .navbar-brand{
+    color: white;
+  }
+}
+
+//Screens to 480px
+@import "small-screens/non-main-small-screens";
