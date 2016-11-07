@@ -1,8 +1,7 @@
 @import "../../variables";
 
-
 //==========Small screens==============
-@media only screen and (max-width:480px) {
+@media only screen and (min-width:480px) and (max-width: 767px ){
 
   //Navbar custom
   .navbar-custom {
@@ -29,6 +28,7 @@
     margin: 8px
 
   }
+
   //Social icons display
   @mixin social-icons($color) {
     background-color: $color;
@@ -129,4 +129,11 @@
 
   }
 
+
+
 }
+
+
+
+
+

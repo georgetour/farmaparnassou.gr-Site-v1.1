@@ -1,0 +1,23 @@
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .navbar-custom {
+    height: 50px;
+    line-height: 50px;
+    background-color: #10230f;
+    margin-top: 10px; }
+
+  .menu-info {
+    color: white;
+    vertical-align: top;
+    display: inline-block; }
+
+  .fa-bars {
+    background-color: #10230f;
+    font-size: 20px !important;
+    color: #888;
+    padding: 6px 9px;
+    border: 1px solid;
+    border-color: #ddd;
+    border-radius: 5px;
+    margin: 8px; } }
+
+/*# sourceMappingURL=non-main-small-medium.css.map */

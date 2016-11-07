@@ -1,3 +1,6 @@
+@import "../variables";
+@import "../../css/non-main-pages/slide-menu/slide-menu.scss";
+
 //html 100%
 html{
   height:100%;
@@ -12,8 +15,8 @@ html{
 body{
   margin: 0;
   padding: 0;
-  color:black;
-  background: url("../../images/history/cowbackground.jpg")no-repeat center center fixed;
+  color:$navbar-color;
+  background: url("../../images/history/cows-nice.jpg")no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -33,5 +36,17 @@ ul{
   }
 }
 
+//Image center trick .
+.img-center{
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 //Screens to 480px
 @import "small-screens/non-main-small-screens";
+
+//Screens from 481px to 767px
+@import "small-medium-screens/non-main-small-medium";
+
+
