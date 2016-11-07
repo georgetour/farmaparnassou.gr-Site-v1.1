@@ -46,7 +46,7 @@ body.slide-active {
 
   #slide-nav .navbar.slide-active {
     position: absolute;
-    width: 80%;
+    width: 90%;
     top: -1px;
     z-index: 1000; }
 

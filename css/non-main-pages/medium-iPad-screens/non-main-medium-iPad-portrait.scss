@@ -1,15 +1,26 @@
 @import "../../variables";
 
-
-//==========Small to Medium screens==============
-@media only screen and (max-width:480px) {
+//==========Medium iPad portrait screens==============
+@media only screen and (min-width:1024px) and(max-width:1199px) {
 
   //Navbar custom
   .navbar-custom {
     height: 50px;
     line-height: 50px;
     background-color: $navbar-color;
-    margin-top: 10px;
+
+  }
+
+  .navbar-default{
+    margin-top: 120px;
+  }
+
+
+
+  #slide-nav .navbar-toggle {
+    margin-right: 10px ;
+    margin-left: 30px;
+
   }
 
   .menu-info {
@@ -29,6 +40,7 @@
     margin: 8px
 
   }
+
   //Social icons display
   @mixin social-icons($color) {
     background-color: $color;
@@ -38,7 +50,22 @@
       display: inline-block;
     }
   }
+  .fa-size{
+    font-size: $ipad-size !important;
+  }
+  .phone,.hours-table{
+    font-size: 25px;
 
+  }
+
+
+  .social-icons{
+
+    li{
+      margin-right: 10px;
+    }
+
+  }
   @mixin instagram-pallete {
     background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
 
@@ -58,24 +85,21 @@
     }
   }
 
-  .hours {
-    padding: 2px 0 0 10px;
-  }
 
   .logo {
-    width: 120px;
+    width: 180px;
   }
 
   .logo-absolute {
     position: absolute;
-    top: -60px;
+    top: -110px;
     right: 20px;
   }
 
   .top-icons-nav {
-    padding-top: 15px;
     position: absolute;
-    top: -150px;
+    top: -160px;
+    left :40px
   }
 
   .menu-links {
@@ -102,6 +126,8 @@
     margin-top: 20px;
     padding: 0;
     background-color: rgba(255, 255, 255,0.9);
+
+
     & figcaption{
       color: $navbar-color;
       padding: 10px 25px;
@@ -128,4 +154,14 @@
 
   }
 
+
 }
+
+
+
+
+
+
+
+
+

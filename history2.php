@@ -86,13 +86,13 @@
                     </li>
                 </ul>
                 <div >
-                    <div>Τηλέφωνο : 2104800090</div>
+                    <div class="phone">Τηλέφωνο : 2104800090</div>
                 </div>
             </address><!--Address and social media icons end--->
         </div><!--End top icons-->
         <div class="container"></div>
-        <article>
-            <div class="col-xs-12 col-sm-3 article-with-opacity"><!--Left column-->
+        <article class="full-article">
+            <div class="col-xs-12 col-lg-9 article-with-opacity"><!--Left column-->
                 <h1>Η ιστορία μας</h1>
                 <p>Ο Γιώργος και Ο Κωνσταντίνος από πολύ μικροί έδινα τον
                     καλύτερο εαυτό τους στην χασαποταβέρνα που λειτουργούσε ο παππούς Νικολής απο το 1923.
@@ -117,7 +117,7 @@
 
             </div>
 
-            <div class="col-xs-12 col-sm-6 image-figure"><!--Right column-->
+            <div class="col-xs-12 col-lg-3 image-figure"><!--Right column-->
                 <figure >
                     <img class=" img-responsive" src="images/history/granpa-with-kids.jpg" alt="Παππούς Νίκος με Γιώργο και Κώστα " >
                     <figcaption>Παππούς Νίκος με Γιώργο και Κώστα</figcaption>
@@ -128,14 +128,13 @@
 
     <footer class="footer">
         <div class="container">
-
-            <div class="col-xs-12">Τηλέφωνο : 2104800090</div>
-            <div class="col-xs-12">Διεύθυνση : Καραισκάκη 6 & Ειρήνης 33</div>
-            <div class="col-xs-12">Περιοχή : Νέο Φάληρο, Πειραιάς</div>
-            <div class="col-xs-12">Email : farmaparnassou@yahoo.gr</div>
-            <div class="col-lg-12">Back to TOP</div>
-            <div  class="col-xs-12 footer-rights">farmaparnassou.gr 2013-2016 All rights reserved <br>Created by George Tourtsinakis </div>
-
+            <div class="col-xs-12 col-lg-3">Τηλέφωνο : 2104800090</div>
+            <div class="col-xs-12 col-lg-3">Διεύθυνση : Καραισκάκη 6 & Ειρήνης 33</div>
+            <div class="col-xs-12 col-lg-3">Περιοχή : Νέο Φάληρο, Πειραιάς</div>
+            <div class="col-xs-12 col-lg-3">email : farmaparnassou@yahoo.gr</div>
+        </div>
+        <div class="container">
+            <div  class="col-xs-12 col-lg-12 footer-rights">farmaparnassou.gr 2013-2016 All rights reserved Created by George Tourtsinakis </div>
         </div>
     </footer>
 

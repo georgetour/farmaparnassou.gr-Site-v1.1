@@ -1,0 +1,103 @@
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .navbar-custom {
+    height: 50px;
+    line-height: 50px;
+    background-color: #10230f; }
+
+  .navbar-default {
+    margin-top: 120px; }
+
+  #slide-nav .navbar-toggle {
+    margin-right: 10px;
+    margin-left: 20px; }
+
+  .menu-info {
+    color: white;
+    vertical-align: top;
+    display: inline-block; }
+
+  .fa-bars {
+    background-color: #10230f;
+    font-size: 20px !important;
+    color: #888;
+    padding: 6px 9px;
+    border: 1px solid;
+    border-color: #ddd;
+    border-radius: 5px;
+    margin: 8px; }
+
+  .social-icons li {
+    display: inline-block; }
+
+  .fa-size {
+    font-size: 24px !important; }
+
+  .phone, .hours-table {
+    font-size: 25px; }
+
+  .social-icons li {
+    margin-right: 10px; }
+
+  .badge.facebook {
+    background-color: #3b5998; }
+  .badge.twitter {
+    background-color: #1dcaff; }
+  .badge.pinterest {
+    background-color: #cb2027; }
+  .badge.instagram {
+    background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00); }
+
+  .logo {
+    width: 180px; }
+
+  .logo-absolute {
+    position: absolute;
+    top: -110px;
+    right: 20px; }
+
+  .top-icons-nav {
+    position: absolute;
+    top: -160px;
+    left: 40px; }
+
+  .menu-links {
+    background-color: #10230f;
+    width: 100px; }
+
+  .article-with-opacity {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.9); }
+
+  p {
+    padding: 10px;
+    text-indent: 15px;
+    font-size: 16px;
+    text-align: justify; }
+
+  .image-figure {
+    margin-top: 20px;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.9); }
+    .image-figure figcaption {
+      color: #10230f;
+      padding: 10px 25px; }
+
+  .footer {
+    padding: 5px;
+    margin-top: 30px;
+    background-color: #10230f;
+    color: white;
+    text-align: center; }
+
+  .footer-rights {
+    font-size: 10px;
+    text-align: center; }
+
+  .navbar-default .navbar-nav > li > a {
+    color: white; }
+
+  .navbar-nav {
+    background-color: #10230f; } }
+
+/*# sourceMappingURL=non-main-medium-iPad-portrait.css.map */

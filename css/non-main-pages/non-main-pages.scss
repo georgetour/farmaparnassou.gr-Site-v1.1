@@ -49,4 +49,11 @@ ul{
 //Screens from 481px to 767px
 @import "small-medium-screens/non-main-small-medium";
 
+//Screens from 768px to 1023px
+@import "medium-iPad-screens/non-main-medium-iPad-landscape";
 
+//Screens from 1024px to 1199px
+@import "medium-iPad-screens/non-main-medium-iPad-portrait";
+
+//Screens above 1200px
+@import "large-screens/non-main-large";
