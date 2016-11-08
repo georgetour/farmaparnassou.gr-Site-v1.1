@@ -2,130 +2,39 @@
 
 
 //==========Small to Medium screens==============
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:479px) {
 
-  //Navbar custom
-  .navbar-custom {
-    height: 50px;
-    line-height: 50px;
-    background-color: $navbar-color;
-    margin-top: 10px;
-  }
-
-  .menu-info {
-    color: white;
-    vertical-align: top;
-    display: inline-block;
-  }
-
-  .fa-bars {
-    background-color: $navbar-color;
-    font-size: 20px !important;
-    color: $ham-lines;
-    padding: 6px 9px;
-    border: 1px solid;
-    border-color: $ham-border-color;
-    border-radius: 5px;
-    margin: 8px
-
-  }
-  //Social icons display
-  @mixin social-icons($color) {
-    background-color: $color;
-  }
-  .social-icons {
-    & li {
-      display: inline-block;
-    }
-  }
-
-  @mixin instagram-pallete {
-    background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
-
-  }
-  .badge {
-    &.facebook {
-      @include social-icons($facebook);
-    }
-    &.twitter {
-      @include social-icons($twitter);
-    }
-    &.pinterest {
-      @include social-icons($pinterest);
-    }
-    &.instagram {
-      @include instagram-pallete;
-    }
-  }
-
-  .hours {
-    padding: 2px 0 0 10px;
-  }
 
   .logo {
-    width: 120px;
-  }
-
-  .logo-absolute {
-    position: absolute;
-    top: -60px;
-    right: 20px;
-  }
-
-  .top-icons-nav {
-    padding-top: 15px;
-    position: absolute;
-    top: -150px;
-  }
-
-  .menu-links {
-    background-color: $navbar-color;
     width: 100px;
   }
 
-  .article-with-opacity{
-    border-radius: 10px;
-    margin-bottom: 20px;
-    background-color: rgba(255, 255, 255,0.9);
+  .navbar-brand{
+    font-size: 12px;
+  }
+  .logo-absolute {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    z-index: 999;
   }
 
-  p{
-    padding: 10px;
-    text-indent: 15px;
-    font-size: 16px;
-    text-align: justify;
-
-
+  .top-icons-nav{
+    padding: 8px 0 8px 15px;
   }
 
-  .image-figure{
-    margin-top: 20px;
-    padding: 0;
-    background-color: rgba(255, 255, 255,0.9);
-    & figcaption{
-      color: $navbar-color;
-      padding: 10px 25px;
-    }
-  }
+
 
   .footer{
     padding: 5px;
     margin-top: 30px;
-    background-color: $navbar-color;
-    color: white;
-    text-align: center;
+    height: 120px;
   }
 
   .footer-rights{
     font-size: 10px;
     text-align: center;
   }
-  .navbar-default .navbar-nav>li>a{
-    color: white;
-  }
-  .navbar-nav{
-    background-color: $navbar-color;
 
-  }
 
 }

@@ -1,8 +1,20 @@
 @import "../../variables";
 
-//==========Small screens==============
-@media only screen and (min-width:480px) and (max-width: 719px ){
+//==========Medium iPad landscape screens==============
+@media only screen and (min-width:768px) and(max-width:1023px) {
 
+  #slide-nav .navbar-toggle {
+    margin-right: 10px ;
+
+  }
+  #slide-nav .navbar-header {
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+
+  .footer {
+    height: 120px;
+  }
 
 
   .logo {
@@ -17,12 +29,9 @@
   }
 
   .top-icons-nav{
-    padding: 10px 0 8px 15px;
+    padding: 10px 0 8px 25px;
   }
 
-  .footer{
-    height: 130px;
-  }
 
 
   .footer-rights{
@@ -38,8 +47,11 @@
   }
 
 
-
 }
+
+
+
+
 
 
 

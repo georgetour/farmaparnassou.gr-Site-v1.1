@@ -1,11 +1,6 @@
 /* adjust body when menu is open */
 
-body{
-  overflow-x: hidden;
-}
-body.slide-active {
-  overflow-x: hidden;
-}
+
 /*first child of #page-content so it doesn't shift around*/
 .no-margin-top {
   margin-top: 0px!important
@@ -18,6 +13,16 @@ body.slide-active {
 #page-content.slide-active {
   padding-top: 0;
 }
+
+#top-icons{
+  position: relative;
+  left: 0;
+}
+#top-icons.slide-active {
+  padding-top: 0;
+}
+
+
 /* put toggle bars on the left :: not using button */
 #slide-nav .navbar-toggle {
   line-height: 0;
@@ -47,7 +52,7 @@ body.slide-active {
   }
   #slide-nav .navbar-header {
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 20px;
   }
   #slide-nav .navbar.slide-active {
     position: absolute;

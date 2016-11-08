@@ -1,0 +1,19 @@
+@import "../../variables";
+
+//For extra large screens with high height
+@media only screen and (min-width:1200px) and (min-height: 800px ) {
+
+.footer{
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+
+}
+  footer {
+    display: block;
+}
+
+
+
+
+}

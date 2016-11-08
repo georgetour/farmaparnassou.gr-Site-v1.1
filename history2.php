@@ -18,8 +18,40 @@
     <link href="css/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 <body class="">
+<div class="container">
+<div id="top-icons" class="row ">
+    <div class="col-xs-6">
+        <!--Top Row with icons and navbar-->
+        <div class="top-icons-nav">
+            <address class="hours"><!--Address and social media icons start --->
+                <ul class="social-icons">
+                    <li><a class="badge social facebook" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
+                            <i class="fa fa-facebook fa-size"></i></a>
+                    </li>
+                    <li><a class="badge social twitter" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
+                            <i class="fa fa-twitter fa-size"></i></a>
+                    </li>
+                    <li><a class="badge social instagram" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
+                            <i class="fa fa-instagram fa-size"></i></a>
+                    </li>
+                    <li><a class="badge social pinterest" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
+                            <i class="fa fa-pinterest fa-size"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div >
+                    <div class="phone">Τηλέφωνο : 2104800090</div>
+                </div>
+            </address><!--Address and social media icons end--->
+        </div>
+    </div><!--Left column-->
 
-<div class="navbar navbar-default static" role="navigation" id="slide-nav">
+    <div class="col-xs-6">
+        <a class="logo-absolute" href="#"><img class="logo" src="images/logo.png"></a>
+    </div>
+</div><!--End row-->
+</div>
+<nav class="navbar navbar-default " role="navigation" id="slide-nav">
     <div class="container">
         <div class="navbar-header" style="left: 0px;">
             <a class="navbar-toggle">
@@ -29,7 +61,6 @@
                 <span class="icon-bar"></span>
             </a>
             <a class="navbar-brand" href="http://">farmaparnassou.gr</a>
-            <a class="logo-absolute" href="#"><img class="logo" src="images/logo.png"></a>
         </div>
         <div id="slidemenu" style="left: -100%;" class="">
 
@@ -52,45 +83,14 @@
             </ul>
 
         </div>
-        <div id="navbar-height-col" style="left: -80%;"></div></div>
-</div>
+        <div id="navbar-height-col" style="left: -80%;"></div>
+    </div>
+</nav>
 
 
 <!--wrap the page content do not style this-->
 <div id="page-content" style="left: 0px;" class="">
-
     <div class="container">
-        <!--Top Row with icons and navbar-->
-        <div class="top-icons-nav">
-            <address class="hours"><!--Address and social media icons start --->
-                <ul class="social-icons">
-                    <li>
-                        <a class="badge social facebook" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
-                            <i class="fa fa-facebook fa-size"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="badge social twitter" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
-                            <i class="fa fa-twitter fa-size"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="badge social instagram" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
-                            <i class="fa fa-instagram fa-size"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="badge social pinterest" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
-                            <i class="fa fa-pinterest fa-size"></i>
-                        </a>
-                    </li>
-                </ul>
-                <div >
-                    <div class="phone">Τηλέφωνο : 2104800090</div>
-                </div>
-            </address><!--Address and social media icons end--->
-        </div><!--End top icons-->
-        <div class="container"></div>
         <article class="full-article">
             <div class="col-xs-12 col-lg-9 article-with-opacity"><!--Left column-->
                 <h1>Η ιστορία μας</h1>
@@ -106,13 +106,11 @@
                     Αυτό που πάντα υπήρχε μέσα τους ήταν η μυρωδιά του καλού κρέατος,
                     η καλη & αγνή πρώτη ύλη και το επιχειρηματικό δαιμόνιο.
                     Πολύ γρήγορα ανακάλυψαν τι είναι αυτό που λείπει από την καθημερινότητα στην αγορά της Αθήνας και μαζί ξεκίνησαν το Κρεοπωλείο τους «Φάρμα Παρνασσού».
-
                 </p>
                 <p>
                     Πράγματι,
                     η οικογένεια Μιχάλη ξεκίνησε το 2010 στο Νέο Φάληρο το νέο τους κρεοπωλείο «Φάρμα Παρνασσού» έχοντας ώς παρακαταθήκη το καλύτερο χασάπικο της Λιβαδειάς που λειτουργούσε από το 1923,
                     την αγάπη για «σωστή» και «ποιοτική» διατροφή και τον σεβασμό στον πελάτη.
-
                 </p>
 
             </div>
@@ -124,19 +122,20 @@
                 </figure>
             </div>
         </article>
-        </div><!--Full page container end-->
+    </div><!--Full page container end-->
+</div><!--End page content-->
 
-    <footer class="footer">
-        <div class="container">
+
+    <footer class="footer ">
             <div class="col-xs-12 col-lg-3">Τηλέφωνο : 2104800090</div>
             <div class="col-xs-12 col-lg-3">Διεύθυνση : Καραισκάκη 6 & Ειρήνης 33</div>
             <div class="col-xs-12 col-lg-3">Περιοχή : Νέο Φάληρο, Πειραιάς</div>
             <div class="col-xs-12 col-lg-3">email : farmaparnassou@yahoo.gr</div>
-        </div>
-        <div class="container">
-            <div  class="col-xs-12 col-lg-12 footer-rights">farmaparnassou.gr 2013-2016 All rights reserved Created by George Tourtsinakis </div>
-        </div>
+            <div  class="col-xs-12 col-lg-12 footer-rights">farmaparnassou.gr 2013-2016 All rights reserved <br>Created by George Tourtsinakis </div>
+
     </footer>
+
+
 
     <!--Jquery bootstrap scrips-->
     <script  src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -157,6 +156,7 @@
         var slidewidth = '80%';
         var menuneg = '-100%';
         var slideneg = '-80%';
+        var topicons = '#top-icons';
 
 
         $("#slide-nav").on("click", toggler, function () {
@@ -175,6 +175,10 @@
                 left: selected ? '0px' : slidewidth
             });
 
+            $(topicons).stop().animate({
+                left: selected ? '0px' : slidewidth
+            });
+
             $(navigationwrapper).stop().animate({
                 left: selected ? '0px' : slidewidth
             });
@@ -184,13 +188,13 @@
             $('#slidemenu').toggleClass('slide-active');
 
 
-            $('#page-content, .navbar, body, .navbar-header').toggleClass('slide-active');
+            $('#page-content,#top-icons, .navbar, body, .navbar-header').toggleClass('slide-active');
 
 
         });
 
 
-        var selected = '#slidemenu, #page-content, body, .navbar, .navbar-header';
+        var selected = '#slidemenu, #page-content,#top-icons, body, .navbar, .navbar-header';
 
 
         $(window).on("resize", function () {
@@ -201,6 +205,24 @@
 
 
         });
+
+        //iPad specific fix
+        $(toggler).on('click',function () {
+            if ( ($(window).width() <= 1024) && ($(window).width() > 769 )){
+                if($('body').hasClass('slide-active')){
+                    $(toggler).css("margin-left","0px");
+                }
+
+                else if(!$('body').hasClass('slide-active')){
+                    $(toggler).css("margin-left","45px");
+                }
+            }
+
+
+
+
+
+        })
 
 
 
