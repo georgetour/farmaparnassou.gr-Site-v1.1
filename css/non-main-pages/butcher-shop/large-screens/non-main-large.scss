@@ -1,0 +1,86 @@
+@import "../../../variables";
+
+//==========Medium iPad portrait screens==============
+@media only screen and (min-width:1200px) {
+
+  .top-icons-nav{
+    padding: 35px 0 8px 0px;
+  }
+
+
+  .logo {
+    width: 180px;
+
+  }
+
+
+
+
+  .logo-absolute {
+    position: absolute;
+    top: 10px;
+    right:50px;
+    z-index: 999;
+  }
+
+  .hours{
+    font-size: $large-size;
+  }
+
+  .fa-size{
+    font-size: $large-size !important;
+  }
+
+  .image-figure{
+    margin-top: 0px;
+  }
+
+  .welcome{
+    & figcaption{
+      border-left: 1px solid black;
+    }
+  }
+
+
+  .footer{
+    height: 60px;
+  }
+
+  .footer-rights{
+    font-size: 10px;
+    text-align: center;
+  }
+  .navbar-default .navbar-nav>li>a{
+    color: white;
+  }
+  .navbar-nav{
+    background-color: $navbar-color;
+
+  }
+
+  .full-article{
+    height: 482px;
+    background-color: white;
+  }
+
+  .navbar{
+    border-radius: 0;
+  }
+
+  .navbar-default{
+    border: none;
+
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+

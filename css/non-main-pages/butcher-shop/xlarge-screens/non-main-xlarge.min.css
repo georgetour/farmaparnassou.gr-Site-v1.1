@@ -1,0 +1,1 @@
+body:before{white-space:pre;font-family:monospace;content:"Error: File to import not found or unreadable: ../../variables.\A         on line 1 of non-main-xlarge.scss\A \A 1: @import \"../../variables\";\A 2: \A 3: //For extra large screens with high height\A 4: @media only screen and (min-width:1200px) and (min-height: 800px ) {\A 5: \A 6: .footer{"}

@@ -1,87 +1,175 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="images/imageedit.gif">
 
-    <title>Farmaparnassou.gr - Η ιστορία μας</title>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Φάρμα Παρνασσού - Η ιστορία μας</title>
 
     <!--Bootstrap-->
     <link  href="css/bootstrap.min.css" rel="stylesheet" type="text/css" >
 
-    <!--Custom Stylesheets for each screen-->
-    <link href="css/non-main-pages/non-main-pages.min.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script async src="scripts/index.js"></script>
 
+
+    <link href="css/non-main-pages/sub-pages/history.min.css" rel="stylesheet" type="text/css">
 
     <!--Font Awesome Icons-->
     <link href="css/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">
-</head>
 
-<body>
+<body class="history">
 
-<!--Top Row with icons and navbar-->
-<div class="top-icons-nav">
-    <address class="hours"><!--Address and social media icons start --->
-        <ul class="social-icons">
-            <li>
-                <a class="badge social facebook" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
-                    <i class="fa fa-facebook fa-size"></i>
-                </a>
-            </li>
-            <li>
-                <a class="badge social twitter" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
-                    <i class="fa fa-twitter fa-size"></i>
-                </a>
-            </li>
-            <li>
-                <a class="badge social instagram" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
-                    <i class="fa fa-instagram fa-size"></i>
-                </a>
-            </li>
-            <li>
-                <a class="badge social pinterest" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
-                    <i class="fa fa-pinterest fa-size"></i>
-                </a>
-            </li>
-        </ul>
-        <div class="phone">
-            <div>Τηλέφωνο : 2104800090</div>
+<!--Top bar with social media icons and navbar-->
+<?php include 'top-bar.php'?>
+
+
+<!--wrap the page content do not style this-->
+<div id="page-content" style="left: 0px;" class="">
+    <div class="container">
+        <article class="full-article">
+            <div class="col-xs-12 col-lg-9 article-with-opacity"><!--Left column-->
+                <h1>Η ιστορία μας</h1>
+                <p>Ο Γιώργος και Ο Κωνσταντίνος από πολύ μικροί έδινα τον
+                    καλύτερο εαυτό τους στην χασαποταβέρνα που λειτουργούσε ο παππούς Νικολής απο το 1923.
+                    Ο Παππούς Νικολής έδωσε την σκυτάλη της επιχείρησης στον γιό του Γιώργο,
+                    Ο παππούς Γιώργος με την σειρά του στον γιό του Νίκο και αυτός με τη σειρά του στα παιδιά του Γιώργο και Κωνσταντίνο.
+                    Τα παιδιά παράλληλα με την ενασχόληση τους με την οικογενειακή επιχείρηση μελέτησαν, σπούδασαν,
+                    μορφώθηκαν και ταξίδεψαν αρκετά. Ο Γιώργος σπούδασε οικονομικά στο Πάντειο Πανεπιστήμιο και μεταπτυχιακά στο Λονδίνο.
+                    Ο Κωνσταντίνος φοίτησε στο Οικονομικό Πανεπιστήμιο Πειραιά, Βιομηχανική Διοίκηση και ακολούθησε μεταπτυχιακά στα Logistics και στη διαχείριση της εφοδιαστική αλυσίδα.
+                </p>
+                <p>
+                    Αυτό που πάντα υπήρχε μέσα τους ήταν η μυρωδιά του καλού κρέατος,
+                    η καλη & αγνή πρώτη ύλη και το επιχειρηματικό δαιμόνιο.
+                    Πολύ γρήγορα ανακάλυψαν τι είναι αυτό που λείπει από την καθημερινότητα στην αγορά της Αθήνας και μαζί ξεκίνησαν το Κρεοπωλείο τους «Φάρμα Παρνασσού».
+                </p>
+                <p>
+                    Πράγματι,
+                    η οικογένεια Μιχάλη ξεκίνησε το 2010 στο Νέο Φάληρο το νέο τους κρεοπωλείο «Φάρμα Παρνασσού» έχοντας ώς παρακαταθήκη το καλύτερο χασάπικο της Λιβαδειάς που λειτουργούσε από το 1923,
+                    την αγάπη για «σωστή» και «ποιοτική» διατροφή και τον σεβασμό στον πελάτη.
+                </p>
+
+            </div>
+
+            <div class="col-xs-12 col-lg-3 image-figure"><!--Right column-->
+                <figure >
+                    <img class=" img-responsive" src="images/history/granpa-with-kids.jpg" alt="Παππούς Νίκος με Γιώργο και Κώστα " >
+                    <figcaption>Παππούς Νίκος με Γιώργο και Κώστα</figcaption>
+                </figure>
+            </div>
+        </article>
+    </div><!--Full page container end-->
+</div><!--End page content-->
+
+
+    <footer class="footer ">
+        <div class="container">
+            <div class="col-xs-12 col-lg-3">Τηλέφωνο : 2104830060</div>
+            <div class="col-xs-12 col-lg-3">Διεύθυνση : Καραισκάκη 6 & Ειρήνης 33</div>
+            <div class="col-xs-12 col-lg-3">Περιοχή : Νέο Φάληρο, Πειραιάς</div>
+            <div class="col-xs-12 col-lg-3">email : farmaparnassou@yahoo.gr</div>
+            <div  class="col-xs-12 col-lg-12 footer-rights">farmaparnassou.gr 2013-2016 All rights reserved <br>Created by George Tourtsinakis </div>
+
         </div>
-    </address><!--Address and social media icons end--->
+    </footer>
+
+
+    <!--Jquery bootstrap scrips-->
+    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function () {
+
+
+        //stick in the fixed 100% height behind the navbar but don't wrap it
+        $('#slide-nav.navbar .container').append($('<div id="navbar-height-col"></div>'));
+
+        // Enter your ids or classes
+        var toggler = '.navbar-toggle';
+        var pagewrapper = '#page-content';
+        var navigationwrapper = '.navbar-header';
+        var menuwidth = '100%'; // the menu inside the slide menu itself
+        var slidewidth = '80%';
+        var menuneg = '-100%';
+        var slideneg = '-80%';
+        var topicons = '#top-icons';
+
+
+        $("#slide-nav").on("click", toggler, function () {
+
+            var selected = $("#slide-nav").hasClass('slide-active');
+
+            $('#slidemenu').stop().animate({
+                left: selected ? menuneg : '0px'
+            });
+
+            $('#navbar-height-col').stop().animate({
+                left: selected ? slideneg : '0px'
+            });
+
+            $(pagewrapper).stop().animate({
+                left: selected ? '0px' : slidewidth
+            });
+
+            $(topicons).stop().animate({
+                left: selected ? '0px' : slidewidth
+            });
+
+            $(navigationwrapper).stop().animate({
+                left: selected ? '0px' : slidewidth
+            });
+
+
+            $(this).toggleClass('slide-active', !selected);
+            $('#slidemenu').toggleClass('slide-active');
+
+
+            $('#page-content,#top-icons, .navbar, body, .navbar-header').toggleClass('slide-active');
+
+
+        });
+
+
+        var selected = '#slidemenu, #page-content,#top-icons, body, .navbar, .navbar-header';
+
+
+        $(window).on("resize", function () {
+
+            if ($(window).width() > 767 && $('.navbar-toggle').is(':hidden')) {
+                $(selected).removeClass('slide-active');
+            }
+
+
+        });
+
+        //iPad specific fix
+        $(toggler).on('click',function () {
+            if ( ($(window).width() <= 1024) && ($(window).width() > 769 )){
+                if($('body').hasClass('slide-active')){
+                    $(toggler).css("margin-left","0px");
+                }
+
+                else if(!$('body').hasClass('slide-active')){
+                    $(toggler).css("margin-left","45px");
+                }
+            }
 
 
 
 
-<nav class="navbar-custom">
-    <button class="fa fa-bars" aria-hidden="true"></button><div class="menu-info">Μενού</div>
-    <a class="logo-absolute" href="#"><img class="logo" src="images/logo.png"></a>
-    <ul class="menu-links">
-        <li>Η ιστορία μας</li>
-        <li>Το κρεοπωλείο μας</li>
-         <li>
-             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Προϊόντα <span class="caret"></span></a>
-             <ul>
-                 <li>Κρέατα</li>
-                 <li>Τυριά</li>
-                 <li>Ζυμαρικά - Όσπρια</li>
-                 <li>Κρασία</li>
-                 <li>Σάλτσες</li>
-                 <li>Μέλι</li>
-            </ul>
-         </li>
-        <li>Συνταγές</li>
-        <li>Τι είπαν για εμάς</li>
-        <li>Επικοινωνία</li>
 
-    </ul>
-</nav>
-</div><!--End social icons-->
+        });
 
 
 
-<script  src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">   </script>
+        //Active class
+        $('#slidemenu ul.nav li:nth-child(1)').addClass("active");
+
+
+
+    });
+</script>
+
 
 </body>
 </html>

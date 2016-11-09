@@ -1,0 +1,1 @@
+body:before{white-space:pre;font-family:monospace;content:"Error: File to import not found or unreadable: ../../variables.\A         on line 1 of non-main-small-screens.scss\A \A 1: @import \"../../variables\";\A 2: \A 3: \A 4: //==========Small to Medium screens==============\A 5: @media only screen and (max-width:479px) {\A 6: "}

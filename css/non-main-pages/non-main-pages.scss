@@ -15,8 +15,8 @@ html{
 body{
   margin: 0;
   padding: 0;
-  color:$navbar-color;
-  background: url("../../images/history/cows-nice.jpg")no-repeat center center fixed;
+  color:black;
+  background: url("../../images/history/cowbackground.jpg")no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -63,6 +63,8 @@ ul{
   background-color: rgba(255, 255, 255,0.9);
 }
 
+
+
 p{
   padding: 10px;
   text-indent: 15px;
@@ -96,10 +98,17 @@ address{
   margin: 0;
 }
 
+//Navbar custom extras
+.navbar-default .navbar-nav>.active>a{
+  color: black;
+  background-color: white;
+}
+
 .navbar-default{
   background-color:#10230f ;
   .navbar-brand{
     color: white;
+    line-height: 22px;
   }
 }
 
@@ -109,6 +118,9 @@ address{
 .navbar-nav{
   background-color: $navbar-color;
 
+}
+.navbar-nav>li>a {
+  line-height: 22px;
 }
 
 //Image center trick .

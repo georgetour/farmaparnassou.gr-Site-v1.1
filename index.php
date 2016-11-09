@@ -50,7 +50,7 @@
             </li>
         </ul>
          <div class="phone">
-         <div>Τηλέφωνο : 2104800090</div>
+         <div>Τηλέφωνο : 2104830060</div>
              <div>Ωράριo</div>
              <div>Δευ-Τετ-Σαβ <br>8:00-18:00</div>
              <div >Τρίτη-Πέμπτη-Παρασκευή<br>8:00-21:00</div>
@@ -94,7 +94,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li><a href="history.php">Η ιστορία μας</a></li>
-                <li><a href="#">Το κρεοπωλείο μας</a></li>
+                <li><a href="butcher-shop.php">Το κρεοπωλείο μας</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Προϊόντα <span class="caret"></span></a>
                     <ul id="horizontal-menu" class="dropdown-menu">

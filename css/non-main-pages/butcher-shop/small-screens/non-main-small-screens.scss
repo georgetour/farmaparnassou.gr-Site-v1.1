@@ -1,0 +1,47 @@
+@import "../../../variables";
+
+
+//==========Small to Medium screens==============
+@media only screen and (max-width:479px) {
+
+  h1{
+    font-size: 25px;
+  }
+
+  .phone{
+    color: white;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .navbar-brand{
+    font-size: 12px;
+  }
+  .logo-absolute {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    z-index: 999;
+  }
+
+  .top-icons-nav{
+    padding: 8px 0 8px 15px;
+  }
+
+
+
+  .footer{
+    padding: 5px;
+    margin-top: 30px;
+    height: 120px;
+  }
+
+  .footer-rights{
+    font-size: 10px;
+    text-align: center;
+  }
+
+
+}

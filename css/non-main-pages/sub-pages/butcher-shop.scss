@@ -1,0 +1,154 @@
+@import "../../variables";
+@import "../../../css/non-main-pages/slide-menu/slide-menu.scss";
+
+//html 100%
+html{
+  height:100%;
+  min-height:100%;
+}
+
+.test-border{
+  border: 1px solid black;
+}
+
+//Body zero
+body{
+  margin: 0;
+  padding: 0;
+  color:black;
+  background: url("../../../images/butcher-shop/Farma.2.jpg")no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+
+}
+
+//=====Social icons display=========
+@mixin social-icons($color) {
+  background-color: $color;
+}
+.social-icons {
+  & li {
+    display: inline-block;
+  }
+}
+
+@mixin instagram-pallete {
+  background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
+
+}
+.badge {
+  &.facebook {
+    @include social-icons($facebook);
+  }
+  &.twitter {
+    @include social-icons($twitter);
+  }
+  &.pinterest {
+    @include social-icons($pinterest);
+  }
+  &.instagram {
+    @include instagram-pallete;
+  }
+}
+//=====End social Icons=========
+
+ul{
+  padding: 0;
+}
+
+.article-with-opacity{
+
+  margin-bottom: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+p{
+  padding: 10px;
+  text-indent: 15px;
+  font-size: 16px;
+  text-align: justify;
+
+}
+
+
+
+.image-figure{
+  margin-top: 20px;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+
+
+  & figcaption{
+    color: black;
+    padding: 10px 25px;
+  }
+}
+
+.footer{
+  padding: 5px;
+  margin-top: 30px;
+  background-color: $navbar-color;
+  color: white;
+  text-align: center;
+}
+
+
+address{
+  margin: 0;
+}
+
+//Navbar custom extras
+.navbar-default .navbar-nav>.active>a{
+  color: black;
+  background-color: white;
+}
+
+.navbar-default{
+  background-color:#10230f ;
+  .navbar-brand{
+    color: white;
+    line-height: 22px;
+  }
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: white;
+}
+.navbar-nav{
+  background-color: $navbar-color;
+
+}
+.navbar-nav>li>a {
+  line-height: 22px;
+}
+
+//Image center trick .
+.img-center{
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+//Screens to 480px
+@import "../butcher-shop/small-screens/non-main-small-screens";
+
+//Screens from 481px to 719px
+@import "../butcher-shop/small-medium-screens/non-main-small-medium";
+
+//Some galaxy and other androids strange res 720 to 767
+@import "../butcher-shop/galaxy-resolutions/galaxy-resolutions";
+
+//Screens from 768px to 1023px
+@import "../butcher-shop/iPad-screens/non-main-medium-iPad-landscape";
+
+//Screens from 1024px to 1199px
+@import "../butcher-shop/iPad-screens/non-main-medium-iPad-portrait";
+
+//Screens above 1200px width
+@import "../butcher-shop/large-screens/non-main-large";
+
+//Screens above 1200px width and 800px height
+@import "../butcher-shop/xlarge-screens/non-main-xlarge";

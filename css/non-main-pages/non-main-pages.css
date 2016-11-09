@@ -156,8 +156,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: #10230f;
-  background: url("../../images/history/cows-nice.jpg") no-repeat center center fixed;
+  color: black;
+  background: url("../../images/history/cowbackground.jpg") no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover; }
@@ -206,16 +206,24 @@ p {
 address {
   margin: 0; }
 
+.navbar-default .navbar-nav > .active > a {
+  color: black;
+  background-color: white; }
+
 .navbar-default {
   background-color: #10230f; }
   .navbar-default .navbar-brand {
-    color: white; }
+    color: white;
+    line-height: 22px; }
 
 .navbar-default .navbar-nav > li > a {
   color: white; }
 
 .navbar-nav {
   background-color: #10230f; }
+
+.navbar-nav > li > a {
+  line-height: 22px; }
 
 .img-center {
   display: block;
@@ -394,8 +402,7 @@ address {
     border-radius: 0; }
 
   .navbar-default {
-    border: none;
-    border-bottom: 1px solid white; } }
+    border: none; } }
 @media only screen and (min-width: 1200px) and (min-height: 800px) {
   .footer {
     bottom: 0;
