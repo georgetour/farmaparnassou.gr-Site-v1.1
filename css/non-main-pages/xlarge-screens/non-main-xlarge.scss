@@ -1,19 +1,52 @@
 @import "../../variables";
 
 //For extra large screens with high height
-@media only screen and (min-width:1200px) and (min-height: 800px ) {
+@media only screen and (min-width:1200px) and (max-height: 1023px ) {
 
-.footer{
-  bottom: 0;
-  position: absolute;
-  width: 100%;
 
-}
   footer {
     display: block;
 }
 
+  #butcher-shop-page {
+    background: url("../../images/butcher-shop/Farma.2.jpg") no-repeat ;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+
+    .phone {
+      color: white;
+    }
 
 
 
+  }
+
+
+
+}
+@media only screen and (min-width:1280px) and (min-height: 1024px ){
+  footer {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  #butcher-shop-page {
+    background: url("../../images/butcher-shop/Farma.2.jpg") no-repeat ;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+
+    .phone {
+      color: white;
+    }
+
+
+    h1 {
+      font-size: 27px;
+    }
+
+  }
 }

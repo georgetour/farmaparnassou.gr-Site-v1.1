@@ -3,8 +3,29 @@
 //==========Small screens==============
 @media only screen and (min-width:480px) and (max-width: 719px ){
 
+  #butcher-shop-page {
+    background: url("../../images/butcher-shop/Farma.2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+
+    .phone {
+      color: white;
+    }
 
 
+    h1 {
+      font-size: 25px;
+    }
+    .article-with-opacity {
+      border-radius: 10px;
+
+      margin-bottom: 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: white;
+
+    }
+  }
   .logo {
     width: 120px;
   }

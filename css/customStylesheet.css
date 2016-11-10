@@ -1,7 +1,13 @@
+@font-face {
+  font-family: 'Greek';
+  src: url(../../fonts/GFSSolomos.otf); }
 html {
   height: 100%;
   min-height: 100%; }
 
+@font-face {
+  font-family: 'Greek';
+  src: url(fonts/GFSSolomos.otf); }
 .test-border {
   border: 1px solid black; }
 
@@ -14,9 +20,12 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover; }
 
-@font-face {
-  font-family: 'Greek';
-  src: url(fonts/GFSSolomos.otf); }
+.phone {
+  font-family: Greek;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 20px; }
+
 .quote {
   font-family: 'Greek';
   margin: 10px 0; }
@@ -111,10 +120,16 @@ a {
 .arrow-angle {
   display: none; }
 
+@font-face {
+  font-family: 'Greek';
+  src: url(../../fonts/GFSSolomos.otf); }
 html {
   height: 100%;
   min-height: 100%; }
 
+@font-face {
+  font-family: 'Greek';
+  src: url(fonts/GFSSolomos.otf); }
 .test-border {
   border: 1px solid black; }
 
@@ -127,9 +142,12 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover; }
 
-@font-face {
-  font-family: 'Greek';
-  src: url(fonts/GFSSolomos.otf); }
+.phone {
+  font-family: Greek;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 20px; }
+
 .quote {
   font-family: 'Greek';
   margin: 10px 0; }
@@ -225,6 +243,9 @@ a {
   display: none; }
 
 @media only screen and (max-width: 480px) {
+  .phone {
+    width: 110px; }
+
   footer {
     font-size: 8px; }
 
@@ -255,10 +276,16 @@ a {
 
   .footer-big-screens {
     display: none; } }
+@font-face {
+  font-family: 'Greek';
+  src: url(../../fonts/GFSSolomos.otf); }
 html {
   height: 100%;
   min-height: 100%; }
 
+@font-face {
+  font-family: 'Greek';
+  src: url(fonts/GFSSolomos.otf); }
 .test-border {
   border: 1px solid black; }
 
@@ -271,9 +298,12 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover; }
 
-@font-face {
-  font-family: 'Greek';
-  src: url(fonts/GFSSolomos.otf); }
+.phone {
+  font-family: Greek;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 20px; }
+
 .quote {
   font-family: 'Greek';
   margin: 10px 0; }
@@ -375,6 +405,9 @@ a {
     margin-right: auto;
     margin-left: auto; }
 
+  .phone {
+    width: 160px; }
+
   .social-icons {
     padding-top: 5px; }
 
@@ -387,10 +420,16 @@ a {
 
   .footer-big-screens {
     display: none; } }
+@font-face {
+  font-family: 'Greek';
+  src: url(../../fonts/GFSSolomos.otf); }
 html {
   height: 100%;
   min-height: 100%; }
 
+@font-face {
+  font-family: 'Greek';
+  src: url(fonts/GFSSolomos.otf); }
 .test-border {
   border: 1px solid black; }
 
@@ -403,9 +442,12 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover; }
 
-@font-face {
-  font-family: 'Greek';
-  src: url(fonts/GFSSolomos.otf); }
+.phone {
+  font-family: Greek;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 20px; }
+
 .quote {
   font-family: 'Greek';
   margin: 10px 0; }
@@ -507,6 +549,9 @@ a {
     margin-right: auto;
     margin-left: auto; }
 
+  .phone {
+    width: 180px; }
+
   .quote {
     font-size: 58px; }
 
@@ -530,10 +575,16 @@ a {
 
   .footer-big-screens {
     display: none; } }
+@font-face {
+  font-family: 'Greek';
+  src: url(../../fonts/GFSSolomos.otf); }
 html {
   height: 100%;
   min-height: 100%; }
 
+@font-face {
+  font-family: 'Greek';
+  src: url(fonts/GFSSolomos.otf); }
 .test-border {
   border: 1px solid black; }
 
@@ -546,9 +597,12 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover; }
 
-@font-face {
-  font-family: 'Greek';
-  src: url(fonts/GFSSolomos.otf); }
+.phone {
+  font-family: Greek;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 20px; }
+
 .quote {
   font-family: 'Greek';
   margin: 10px 0; }
@@ -644,6 +698,9 @@ a {
   display: none; }
 
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .phone {
+    width: 230px; }
+
   .img-logo {
     width: 240px;
     display: block;
@@ -673,10 +730,16 @@ a {
 
   .footer-big-screens {
     display: none; } }
+@font-face {
+  font-family: 'Greek';
+  src: url(../../fonts/GFSSolomos.otf); }
 html {
   height: 100%;
   min-height: 100%; }
 
+@font-face {
+  font-family: 'Greek';
+  src: url(fonts/GFSSolomos.otf); }
 .test-border {
   border: 1px solid black; }
 
@@ -689,9 +752,12 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover; }
 
-@font-face {
-  font-family: 'Greek';
-  src: url(fonts/GFSSolomos.otf); }
+.phone {
+  font-family: Greek;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 20px; }
+
 .quote {
   font-family: 'Greek';
   margin: 10px 0; }
@@ -789,6 +855,9 @@ a {
 @media only screen and (min-width: 1199px) {
   .footer-rights {
     display: none; }
+
+  .phone {
+    width: 250px; }
 
   .fa-size {
     font-size: 25px !important; }

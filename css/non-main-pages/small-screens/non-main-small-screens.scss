@@ -1,13 +1,47 @@
 @import "../../variables";
 
 
-//==========Small to Medium screens==============
+//==========Small screens==============
 @media only screen and (max-width:479px) {
+
+  #butcher-shop-page{
+    background: url("../../images/butcher-shop/Farma.2.jpg")no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+
+    .phone{
+      color: white;
+    }
+
+
+    h1{
+      font-size: 25px;
+    }
+    .article-with-opacity{
+      border-radius: 10px;
+
+      margin-bottom: 20px;
+      background-color: rgba(0, 0, 0,0.6);
+      color: white;
+
+    }
+
+    .emphasis{
+      font-style: italic;
+      font-weight: bold;
+      font-size: 18px;
+      font-family: Greek;
+    }
+
+  }
 
 
   .logo {
     width: 100px;
   }
+
+
 
   .navbar-brand{
     font-size: 12px;
@@ -36,5 +70,16 @@
     text-align: center;
   }
 
+
+}
+
+//Nexus and iPhone 6 plus tweaking
+@media only screen and (min-width:410px) and(max-width:478px) {
+  .logo-absolute {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+  }
 
 }

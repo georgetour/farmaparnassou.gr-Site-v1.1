@@ -4,9 +4,17 @@
 //==========Small to Medium screens==============
 @media only screen and (min-width:481px) and(max-width:767px) {
 
+
+
+
   .img-logo{
     width: 130px;
     @include img-center;
+  }
+
+  .phone{
+    width: 160px;
+
   }
 
   .social-icons{

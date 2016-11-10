@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAEA,gEAAgE;EAC9D,cAAc;IACZ,OAAO,EAAE,eAAe;;EAG1B,KAAK;IACH,KAAK,EAAC,KAAK;;EAGb,cAAe;IACb,QAAQ,EAAE,QAAQ;IAClB,GAAG,EAAE,IAAI;IACT,KAAK,EAAE,IAAI;IACX,OAAO,EAAE,GAAG",
-"sources": ["galaxy-resolutions.scss"],
-"names": [],
-"file": "galaxy-resolutions.css"
-}

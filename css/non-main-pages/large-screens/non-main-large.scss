@@ -2,7 +2,42 @@
 
 //==========Medium iPad portrait screens==============
 @media only screen and (min-width:1200px) {
+  #butcher-shop-page {
+    background: url("../../images/butcher-shop/Farma.2.jpg") no-repeat ;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
 
+    .phone {
+      color: white;
+    }
+
+
+    h1 {
+      font-size: 27px;
+    }
+    .iPad-portrait-left{
+      margin-left: 72%;
+    }
+    .iPad-portrait-left{
+      width: 29.6666%;
+    }
+
+  }
+
+  #history{
+
+
+  .article-with-opacity{
+    height: 460px;
+  }
+
+  .image-figure{
+    margin-top: 0;
+    height: 460px;
+  }
+
+  }
   .top-icons-nav{
     padding: 35px 0 8px 0px;
   }
@@ -29,17 +64,14 @@
     font-size: $large-size !important;
   }
 
-  .image-figure{
-    margin-top: 0px;
-  }
 
   .footer{
-    height: 60px;
+    height: 65px;
   }
 
-  .article-with-opacity{
-    height: 485px;
-  }
+
+
+
   .footer-rights{
     font-size: 10px;
     text-align: center;
@@ -60,10 +92,7 @@
     border-radius: 0;
   }
 
-  .navbar-default{
-    border: none;
 
-  }
 
 
 

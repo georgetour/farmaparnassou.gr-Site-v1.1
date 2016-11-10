@@ -12,12 +12,12 @@
     <script async src="scripts/index.js"></script>
 
     <!--Custom style-->
-    <link href="css/non-main-pages/sub-pages/butcher-shop.min.css" rel="stylesheet" type="text/css">
+    <link href="css/non-main-pages/non-main-pages.css" rel="stylesheet" type="text/css">
 
     <!--Font Awesome Icons-->
     <link href="css/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-<body>
+<body id="butcher-shop-page">
 <?php include 'top-bar.php'?>
 
 
@@ -25,30 +25,24 @@
 <div id="page-content" style="left: 0px;" class="">
     <div class="container">
         <article class="full-article">
-            <div class="col-xs-12 col-lg-5 article-with-opacity"><!--Left column-->
+
+
+            <div class="col-xs-12 col-lg-offset-8 col-lg-4 col-l iPad-portrait-left iPad-portrait-right  article-with-opacity"><!--Right column-->
                 <h1>Το κρεοπωλείο μας</h1>
                 <p>Στην «Φάρμα Παρνασσού» θα βρείτε κρέατα ταυτόσημα με την ζωή του
                     ελληνικού χωριού που αντικατοπτρίζουν τα έθιμα και τις αξίες που είναι συνυφασμένες με την απλή ζωη του
                     ελληνικού χωριού.
                 </p>
-                <p>
-                    Στο κρεοπωλείο μας αναζητούμε διαρκώς το αυθεντικό,
-                    το αγνό και προσφέρουμε αυθεντικές γεύσεις και αναμνήσεις
+                <p>Στο κρεοπωλείο μας αναζητούμε διαρκώς το αυθεντικό, το αγνό και προσφέρουμε αυθεντικές γεύσεις και αναμνήσεις
                     μέσα απο την ελληνική ποιοτική διατροφή με γνησιότητα και πρωτοτυπία.
                 </p>
-                <p>
-                    Εδώ, η ξεχωριστή γεύση από το καλοσιτεμένο μοσχάρι,
+                <p class="emphasis">Εδώ, η ξεχωριστή γεύση από το καλοσιτεμένο μοσχάρι,
                     το χωριάτικο χοιρινό, τον αλανιάρη κόκορα,
                     το άγριο κατσικάκι και το απάλο στην γεύση αρνάκι ξυπνούν πολύτιμες αναμνήσεις.
+                    
                 </p>
 
-            </div>
 
-            <div class="col-xs-12 col-lg-7 image-figure"><!--Right column-->
-                <figure class="welcome">
-                    <img class=" img-responsive" src="images/butcher-shop/Farma.3.jpg" alt="Καλώς ήρθατε στο κρεοπωλείο μας" >
-                    <figcaption>Καλώς ήρθατε στο κρεοπωλείο μας</figcaption>
-                </figure>
             </div>
         </article>
     </div><!--Full page container end-->

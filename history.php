@@ -12,12 +12,12 @@
     <script async src="scripts/index.js"></script>
 
 
-    <link href="css/non-main-pages/sub-pages/history.min.css" rel="stylesheet" type="text/css">
+    <link href="css/non-main-pages/non-main-pages.css" rel="stylesheet" type="text/css">
 
     <!--Font Awesome Icons-->
     <link href="css/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-<body class="history">
+<body id="history">
 
 <!--Top bar with social media icons and navbar-->
 <?php include 'top-bar.php'?>
@@ -50,11 +50,8 @@
 
             </div>
 
-            <div class="col-xs-12 col-lg-3 image-figure"><!--Right column-->
-                <figure >
-                    <img class=" img-responsive" src="images/history/granpa-with-kids.jpg" alt="Παππούς Νίκος με Γιώργο και Κώστα " >
-                    <figcaption>Παππούς Νίκος με Γιώργο και Κώστα</figcaption>
-                </figure>
+            <div class="col-xs-12 col-lg-3 "><!--Right column-->
+                 <img class="image-figure img-responsive" src="images/history/granpa-with-kids.jpg" alt="Παππούς Νίκος με Γιώργο και Κώστα " >
             </div>
         </article>
     </div><!--Full page container end-->

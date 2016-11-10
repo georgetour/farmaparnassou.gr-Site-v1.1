@@ -11,16 +11,63 @@ html{
   border: 1px solid black;
 }
 
-//Body zero
 body{
   margin: 0;
   padding: 0;
   color:black;
+}
+
+//History page
+#history{
+
   background: url("../../images/history/cowbackground.jpg")no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
 
+  .article-with-opacity{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255,0.4);
+
+  }
+
+}
+
+#butcher-shop-page{
+  background: url("../../images/butcher-shop/Farma.2.jpg")no-repeat ;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+
+  .article-with-opacity{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255,1);
+
+  }
+    .emphasis{
+      font-style: italic;
+      font-weight: bold;
+      font-size: 22px;
+      font-family: Greek;
+    }
+}
+
+
+.navbar-default{
+  border-left: none;
+  border-top: 1px solid white;
+  border-right: none;
+  border-bottom: 1px solid white;
+
+}
+#slide-nav{
+  border-left: none;
+  border-top: 1px solid white;
+  border-right: none;
+  border-bottom: 1px solid white;
+  border-radius: 0;
 }
 
 //=====Social icons display=========
@@ -57,11 +104,6 @@ ul{
   padding: 0;
 }
 
-.article-with-opacity{
-  border-radius: 10px;
-  margin-bottom: 20px;
-  background-color: rgba(255, 255, 255,0.9);
-}
 
 
 
@@ -129,6 +171,7 @@ address{
   margin-right: auto;
   margin-left: auto;
 }
+
 
 //Screens to 480px
 @import "small-screens/non-main-small-screens";

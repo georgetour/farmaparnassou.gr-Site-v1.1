@@ -11,7 +11,6 @@
 
     <!--Custom Stylesheets for each screen-->
     <link href="css/customStylesheet.min.css" rel="stylesheet" type="text/css">
-    <link href="test.css" rel="stylesheet" type="text/css">
 
     <!--Font Awesome Icons-->
     <link href="css/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">

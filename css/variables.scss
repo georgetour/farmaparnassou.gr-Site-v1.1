@@ -15,3 +15,9 @@ $ham-border-color: #ddd;
 //Social media icons special size
 $ipad-size : 24px;
 $large-size : 25px;
+
+//Fonts
+@font-face {
+  font-family: 'Greek';
+  src: url(../../fonts/GFSSolomos.otf);
+}
