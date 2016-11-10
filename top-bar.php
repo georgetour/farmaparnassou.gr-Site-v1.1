@@ -1,4 +1,5 @@
 <!--Top row with social media icons and navbar-->
+<div id="top-background">
 <div class="container">
     <div id="top-icons" class="row ">
         <div class="col-xs-6">
@@ -32,6 +33,8 @@
         </div>
     </div><!--End row-->
 </div>
+</div>
+
 <nav class="navbar navbar-default " role="navigation" id="slide-nav">
     <div class="container">
         <div class="navbar-header" style="left: 0px;">
@@ -49,7 +52,7 @@
                 <li><a href="butcher-shop.php">Το κρεοπωλείο μας</a></li>
                 <li class="dropdown"> <a href="http://" class="dropdown-toggle" data-toggle="dropdown">Προϊόντα <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="http://">Κρέατα</a></li>
+                        <li><a href="meat.php">Κρέατα</a></li>
                         <li><a href="http://">Τυριά</a></li>
                         <li><a href="http://">Ζυμαρικά - Όσπρια</a></li>
                         <li><a href="http://">Κρασιά</a></li>

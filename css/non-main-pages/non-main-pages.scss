@@ -17,9 +17,8 @@ body{
   color:black;
 }
 
-//History page
+//======History page========
 #history{
-
   background: url("../../images/history/cowbackground.jpg")no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
@@ -33,7 +32,10 @@ body{
   }
 
 }
+//========End History page=======
 
+
+//=============Το κρεοπωλέιο μας=============
 #butcher-shop-page{
   background: url("../../images/butcher-shop/Farma.2.jpg")no-repeat ;
   background-size: cover;
@@ -53,7 +55,29 @@ body{
       font-family: Greek;
     }
 }
+//==========End Το κρεοπωλέιο μας==============
 
+//==========Meat page================
+#meat-page{
+  background-color: $products-background;;
+  #top-background{
+    background: url("../../images/meat-page/meat-frames.jpg")no-repeat   ;
+    background-size:cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+
+  }
+
+  .full-article{
+    background-color:white;
+    height: 100%;
+    padding-bottom: 140px;
+  }
+
+
+}
+
+//=========End meat page============
 
 .navbar-default{
   border-left: none;

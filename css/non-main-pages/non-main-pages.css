@@ -183,6 +183,18 @@ body {
     font-size: 22px;
     font-family: Greek; }
 
+#meat-page {
+  background-color: #cfea4d; }
+  #meat-page #top-background {
+    background: url("../../images/meat-page/meat-frames.jpg") no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover; }
+  #meat-page .full-article {
+    background-color: white;
+    height: 100%;
+    padding-bottom: 140px; }
+
 .navbar-default {
   border-left: none;
   border-top: 1px solid white;
