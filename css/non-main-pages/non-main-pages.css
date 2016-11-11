@@ -193,7 +193,59 @@ body {
   #meat-page .full-article {
     background-color: white;
     height: 100%;
-    padding-bottom: 140px; }
+    padding-bottom: 140px;
+    border-radius: 10px;
+    padding: 10px; }
+  #meat-page .phone {
+    color: white; }
+
+.product-category {
+  text-align: center;
+  font-family: Greek;
+  font-style: italic;
+  border-bottom: 1px solid #cfea4d;
+  padding-bottom: 10px; }
+
+.product-row {
+  background-color: #e4e4e4;
+  margin: 10px 10px 40px 10px;
+  border-radius: 10px;
+  padding-bottom: 10px; }
+
+.product-name {
+  display: block;
+  position: relative;
+  z-index: 1; }
+
+.hook-img {
+  background: url("../../images/product-name.png") no-repeat;
+  position: absolute;
+  top: -26px;
+  left: -15px;
+  width: 320px;
+  height: 100px;
+  background-size: 180px 50px; }
+  .hook-img span {
+    font-family: Greek;
+    font-style: italic;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 55px; }
+  .hook-img .long-product {
+    position: absolute;
+    top: 10px;
+    left: 25px; }
+
+.product-image {
+  padding-top: 60px; }
+
+.product-text {
+  margin-top: 45px; }
+
+.no-indent {
+  text-indent: 0px; }
 
 .navbar-default {
   border-left: none;

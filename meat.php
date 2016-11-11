@@ -25,41 +25,142 @@
 <div id="page-content" style="left: 0px;" class="">
     <div class="container page-color">
         <article class="full-article">
-
             <div class="row">
-             <h1 style="text-align: center" class="col-xs-12">Κρέατα</h1>
-
-             <div class="col-xs-12 col-lg-6"><!--Right column-->
-                <h1>Το κρεοπωλείο μας</h1>
-                <p>Στην «Φάρμα Παρνασσού» θα βρείτε κρέατα ταυτόσημα με την ζωή του
-                    ελληνικού χωριού που αντικατοπτρίζουν τα έθιμα και τις αξίες που είναι συνυφασμένες με την απλή ζωη του
-                    ελληνικού χωριού.
-                </p>
-                <p>Στο κρεοπωλείο μας αναζητούμε διαρκώς το αυθεντικό, το αγνό και προσφέρουμε αυθεντικές γεύσεις και αναμνήσεις
-                    μέσα απο την ελληνική ποιοτική διατροφή με γνησιότητα και πρωτοτυπία.
-                </p>
-                <p class="emphasis">Εδώ, η ξεχωριστή γεύση από το καλοσιτεμένο μοσχάρι,
-                    το χωριάτικο χοιρινό, τον αλανιάρη κόκορα,
-                    το άγριο κατσικάκι και το απάλο στην γεύση αρνάκι ξυπνούν πολύτιμες αναμνήσεις.
-                </p>
-
-             </div>
-                <div class="col-xs-12 col-lg-6  "><!--Right column-->
-                    <h1>Το κρεοπωλείο μας</h1>
-                    <p>Στην «Φάρμα Παρνασσού» θα βρείτε κρέατα ταυτόσημα με την ζωή του
-                        ελληνικού χωριού που αντικατοπτρίζουν τα έθιμα και τις αξίες που είναι συνυφασμένες με την απλή ζωη του
-                        ελληνικού χωριού.
+                <h1  class="col-xs-12  product-category">Κρέατα</h1>
+            </div>
+            <section><!--Μοσχάρι section-->
+            <div class="row product-row">
+                <div class="col-xs-12  col-lg-3"><!--Left or up column-->
+                 <div class="product-name">
+                     <h3 class="hook-img">
+                         <span>Μοσχάρι</span>
+                     </h3>
+                     <img class="img-responsive product-image" src="images/meat-page/IMG_2810.JPG" alt="Μοσχάρι">
+                 </div>
+                </div><!--End Left or up column-->
+                <div class="col-xs-12 col-lg-9 product-text "><!--Right column-->
+                    <p>Στο κρεοπωλέιο μας Φάρμα Παρνασσού θα βρείτε τα καλύτερο μοσχαρίσιο κρέας απο νεαρά μοσχάρια της ελληνικής υπαίθρου.
                     </p>
-                    <p>Στο κρεοπωλείο μας αναζητούμε διαρκώς το αυθεντικό, το αγνό και προσφέρουμε αυθεντικές γεύσεις και αναμνήσεις
-                        μέσα απο την ελληνική ποιοτική διατροφή με γνησιότητα και πρωτοτυπία.
+                    <p>Μοσχάρι από την Καρδίτσα, τα Τρίκαλά,
+                        τον Παρνασσό και τα Στύρα αλλά και μοσχάρια ειδικής εκτροφής όπως το Άρωμα ω3 απο την Βέροια και ελευθέρας βοσκής από τον Ελικώνα.
                     </p>
-                    <p class="emphasis">Εδώ, η ξεχωριστή γεύση από το καλοσιτεμένο μοσχάρι,
-                        το χωριάτικο χοιρινό, τον αλανιάρη κόκορα,
-                        το άγριο κατσικάκι και το απάλο στην γεύση αρνάκι ξυπνούν πολύτιμες αναμνήσεις.
-                    </p>
-
                 </div>
             </div>
+            </section><!--End Μοσχάρι section-->
+
+            <section><!--Χοιρινό section-->
+                <div class="row product-row">
+                    <div class="col-xs-12  col-lg-3"><!--Left or up column-->
+                        <div class="product-name">
+                            <h3 class="hook-img">
+                                <span>Χοιρινό</span>
+                            </h3>
+                            <img class="img-responsive product-image" src="images/meat-page/IMG_20160721_160613.jpg"  alt="Χοιρινό">
+                        </div>
+                    </div><!--End Left or up column-->
+                    <div class="col-xs-12 col-lg-9 product-text "><!--Right column-->
+                        <p> Δοκιμάστε το εξαιρετικής ποιότητας χοιρινό κρέας
+                            από μικρούς παραγωγούς της Εύβοιας και της Αιτολωακαρνανίας όπως επίσης και τον
+                            Μάυρο Χοίρο σπάνιας ελληνικής φυλής πιστοποιημένο από το Ελληνικό Ινστιτούτο Γεννετικής
+                        </p>
+
+                    </div>
+                </div>
+            </section><!--End Χοιρινό section-->
+
+            <section><!--Λουκάνικα section-->
+                <div class="row product-row">
+                    <div class="col-xs-12  col-lg-3"><!--Left or up column-->
+                        <div class="product-name">
+                            <h3 class="hook-img">
+                                <span>Λουκάνικα </span>
+                            </h3>
+                            <img class="img-responsive product-image" src="images/meat-page/Loukanika.jpg" alt="Λουκάνικα">
+                        </div>
+                    </div><!--End Left or up column-->
+                    <div class="col-xs-12 col-lg-9 product-text "><!--Right column-->
+                        <p>Η κυρία Άννα καθημερινά δημιουργεί μια μεγάλη ποικιλία σε σπιτικές κρεατολιχουδιές.
+                            λουκάνικα (Μοσχάρι, Χοιρινό, Γαλοπούλα)
+                            αλλά και μεζέδες για μερακλήδες όπως κοντοσούβλι, κοκορέτσι, γαρδουμπάκια και σπληνάντερο
+
+                        </p>
+
+
+                    </div>
+                </div>
+            </section><!--End Λουκάνικα  section-->
+
+            <section><!--Πουλερικά section-->
+                <div class="row product-row">
+                    <div class="col-xs-12  col-lg-3"><!--Left or up column-->
+                        <div class="product-name">
+                            <h3 class="hook-img">
+                                <span>Πουλερικά</span>
+                            </h3>
+                            <img class="img-responsive product-image" src="images/meat-page/Kotopoula%20Eleftheras%20Boskis%20(1).jpg"  alt="Κοτόπουλο">
+                        </div>
+                    </div><!--End Left or up column-->
+                    <div class="col-xs-12 col-lg-9 product-text "><!--Right column-->
+                        <p class=" no-indent">Ελληνικά Κοτόπουλα Ιωαννίνων</p>
+                        <p>Κοτόπουλα & Κοκόρια Ελευθέρας Βοσκής ηλικίας έως 6 μηνών.
+                            Τα κοπάδια βόσκουν σε προστατευόμενη περιοχή NATURA σε υψόμετρο
+                            760 μέτρων σε μια απο τις καταλληλότερες τοποθεσίες της Ελλάδας.
+                            Ο φυσικός τρόπος που μεγαλώνουν είναι η σφραγίδα στην ποιότητα και την νοστιμιά τους.
+                        </p>
+                        <p class=" no-indent">Γαλοπούλες Ελληνικές από την Καρδίτσα και απο την αμερικανική γεωργική σχολή της Θεσσαλονίκης</p>
+                        <p class=" no-indent">Σπιτικά Αυγά απο το χωριό</p>
+
+                    </div>
+                </div>
+            </section><!--End Πουλερικά section-->
+
+            <section><!--Αμνοερίφια section-->
+                <div class="row product-row">
+                    <div class="col-xs-12  col-lg-3"><!--Left or up column-->
+                        <div class="product-name">
+                            <h3 class="hook-img">
+                                <span>Αμνοερίφια</span>
+                            </h3>
+                            <img class="img-responsive product-image" src="images/meat-page/ribs.jpg"  alt="Αρνίσια παϊδάκια">
+                        </div>
+                    </div><!--End Left or up column-->
+                    <div class="col-xs-12 col-lg-9 product-text "><!--Right column-->
+                        <p> Εδώ θα απολαύσετε το πεντανόστιμο άγριο κατσίκι,
+                            το απαλό στην γεύση αρνάκι γάλακτος καθώς επίσης το απολαυστικό πρόβατο και την υγιεινή γίδα όλα από την περιοχή του Ελικώνα,
+                            του Παρνασσού καθώς επίσης και από μικρούς παραγωγούς της Ηπείρου.
+                        </p>
+
+
+                    </div>
+                </div>
+            </section><!--End Αμνοερίφια section-->
+
+            <section><!--Κρεατολιχουδιές section-->
+                <div class="row product-row">
+                    <div class="col-xs-12  col-lg-3"><!--Left or up column-->
+                        <div class="product-name">
+                            <h3 class="hook-img">
+                                <span class="long-product">Κρεατοαπολάυσεις</span>
+                            </h3>
+                            <img style="height: 250px" class="img-responsive product-image" src="images/meat-page/IMG_2782.jpg"  alt="Κρεατολιχουδιές">
+                        </div>
+                    </div><!--End Left or up column-->
+                    <div class="col-xs-12 col-lg-9 product-text "><!--Right column-->
+                        <p> Η κυρία Άννα καθημερινά δημιουργεί μια μεγάλη ποικιλία σε σπιτικές κρεατολιχουδιές.
+                            Μπιφτέκια (Μοσχάρι, Κοτόπουλο, Γαλοπούλα)
+                            Σουβλάκια (Μοσχάρι, Χοιρινό, Κοτόπουλο)
+                            Λουκάνικα (Μοσχάρι, Χοιρινό, Γαλοπούλα)
+                            Σπιτικοί Λαχανοντολμάδες (το χειμώνα με λάχανο και το καλοκαίρι με αμπελόφυλλο)
+                            Ρολά (Κοτόπουλο, Χοιρινό, Μοσχάρι)
+                            Αλλά και μεζέδες για μερακλήδες όπως κοντοσούβλι, κοκορέτσι, γαρδουμπάκια και σπληνάντερο
+
+                        </p>
+
+
+                    </div>
+                </div>
+            </section><!--End Κρεατολιχουδιές section-->
+
         </article>
     </div><!--Full page container end-->
 </div><!--End page content-->
