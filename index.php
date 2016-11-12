@@ -97,7 +97,7 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Προϊόντα <span class="caret"></span></a>
                     <ul id="horizontal-menu" class="dropdown-menu">
-                        <li><a class="arrow-angle" href="#">Κρέατα</a></li>
+                        <li><a class="arrow-angle" href="meat.php">Κρέατα</a></li>
                         <img class="arrow-angle" src="images/home-page/arrow-angle.png">
                         <li><a class="arrow-angle" href="#">Τυριά</a></li>
                         <img class="arrow-angle" src="images/home-page/arrow-angle.png">
@@ -111,10 +111,10 @@
 
                     </ul>
                 </li>
-                <li><a class="arrow-angle" href="#">Συνταγές</a>
+                <li><a class="arrow-angle" href="recipes.php">Συνταγές</a>
                 </li>
-                <li><a href="#">Τι είπαν για εμάς</a></li>
-                <li><a href="#">Επικοινωνία</a></li>
+                <li><a href="what-they-say.php">Τι είπαν για εμάς</a></li>
+                <li><a href="contact.php">Επικοινωνία</a></li>
             </ul>
             <footer class="footer-big-screens">
                 <div >farmaparnassou.gr 2013-2016 All rights reserved<br> <a href="http://www.besmartbesimple.com/" target="_blank">Created by beSmartbeSimple.com</div>

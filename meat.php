@@ -3,7 +3,7 @@
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Φάρμα Παρνασσού - Το κρεοπωλείο μας</title>
+    <title>Φάρμα Παρνασσού - Κρέατα</title>
 
     <!--Bootstrap-->
     <link  href="css/bootstrap.min.css" rel="stylesheet" type="text/css" >
@@ -260,11 +260,8 @@
             }
         })
 
-
-
-
-
-
+        //Active class
+        $('#horizontal-menu li:nth-child(1) a').addClass("product-active");
 
     });
 </script>

@@ -75,6 +75,35 @@
 
   }
 
+  .what-they-say{
+    width: 100%;
+    height: 1000px;
+  }
+
+  //===Contact====
+  .contact-page{
+    .product-category{
+      font-size: 32px;
+    }
+
+    .emphasis{
+      p{
+        font-size: 28px;
+      }
+    }
+
+    .find-us{
+      text-align: center;
+      font-style: italic;
+      font-family: Greek;
+      font-size: 25px;
+    }
+
+    .google-map{
+      height: 600px;
+    }
+  }
+
 
 }
 
@@ -142,6 +171,15 @@
     right: 30px;
     z-index: 999;
   }
+
+  .what-they-say{
+    width: 100%;
+    height: 1000px;
+  }
+
+
+
+
 
 }
 

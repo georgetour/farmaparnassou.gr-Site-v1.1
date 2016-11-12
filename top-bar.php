@@ -51,18 +51,23 @@
                 <li ><a href="history.php">Η ιστορία μας</a></li>
                 <li><a href="butcher-shop.php">Το κρεοπωλείο μας</a></li>
                 <li class="dropdown"> <a href="http://" class="dropdown-toggle" data-toggle="dropdown">Προϊόντα <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
+                    <ul id="horizontal-menu" class="dropdown-menu">
                         <li><a href="meat.php">Κρέατα</a></li>
+                        <img class="arrow-angle" src="images/home-page/arrow-angle.png">
                         <li><a href="http://">Τυριά</a></li>
+                        <img class="arrow-angle" src="images/home-page/arrow-angle.png">
                         <li><a href="http://">Ζυμαρικά - Όσπρια</a></li>
+                        <img class="arrow-angle" src="images/home-page/arrow-angle.png">
                         <li><a href="http://">Κρασιά</a></li>
+                        <img class="arrow-angle" src="images/home-page/arrow-angle.png">
                         <li><a href="http://">Σάλτσες</a></li>
-                        <li><a href="http://">Μελι</a></li>
+                        <img class="arrow-angle" src="images/home-page/arrow-angle.png">
+                        <li><a href="http://">Μέλι</a></li>
                     </ul>
                 </li>
                 <li><a href="http://about">Συνταγές</a></li>
-                <li><a href="http://about">Τι είπαν για εμάς</a></li>
-                <li><a href="http://about">Επικοινωνία</a></li>
+                <li><a href="what-they-say.php">Τι είπαν για εμάς</a></li>
+                <li><a href="contact.php">Επικοινωνία</a></li>
             </ul>
 
         </div>

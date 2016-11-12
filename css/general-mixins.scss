@@ -169,9 +169,14 @@ a{
   background-color: $navbar-color;
   color: white;
   li {
-    a{
+    a {
       color: white;
     }
+  }
+  li a:hover{
+
+      color: black;
+
   }
 }
 

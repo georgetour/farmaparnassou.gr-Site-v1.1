@@ -58,7 +58,7 @@
 </div><!--End page content-->
 
 
-    <footer class="footer ">
+    <footer class="footer footer-absolute">
         <div class="container">
             <div class="col-xs-12 col-lg-3">Τηλέφωνο : 2104830060</div>
             <div class="col-xs-12 col-lg-3">Διεύθυνση : Καραισκάκη 6 & Ειρήνης 33</div>
@@ -160,7 +160,7 @@
 
 
         //Active class
-        $('#slidemenu ul.nav li:nth-child(1)').addClass("active");
+        $('#slidemenu>ul.nav>li:nth-child(1)').addClass("active");
 
 
 

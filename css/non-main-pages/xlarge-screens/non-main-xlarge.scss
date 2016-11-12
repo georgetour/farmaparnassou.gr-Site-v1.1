@@ -2,7 +2,16 @@
 
 //For extra large screens with high height
 @media only screen and (min-width:1200px) and (max-height: 1023px ) {
-
+  #horizontal-menu{
+    min-width: 680px;
+    padding-left: 0;
+    margin-left: -300px;
+    list-style: none;
+  }
+  #horizontal-menu {
+    background-color: #10230f;
+    color: white;
+  }
 
   footer {
     display: block;
@@ -17,9 +26,12 @@
     .phone {
       color: white;
     }
+  }
 
-
-
+  #history {
+    .footer {
+      margin-top: 100px;
+    }
   }
 
 
@@ -48,5 +60,16 @@
       font-size: 27px;
     }
 
+  }
+}
+
+@media only screen and (min-width:1400px) and (min-height: 900px ) {
+  #history {
+    .footer {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
   }
 }

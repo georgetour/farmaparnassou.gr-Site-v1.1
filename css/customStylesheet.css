@@ -116,6 +116,8 @@ a {
   color: white; }
   #horizontal-menu li a {
     color: white; }
+  #horizontal-menu li a:hover {
+    color: black; }
 
 .arrow-angle {
   display: none; }
@@ -238,6 +240,8 @@ a {
   color: white; }
   #horizontal-menu li a {
     color: white; }
+  #horizontal-menu li a:hover {
+    color: black; }
 
 .arrow-angle {
   display: none; }
@@ -394,6 +398,8 @@ a {
   color: white; }
   #horizontal-menu li a {
     color: white; }
+  #horizontal-menu li a:hover {
+    color: black; }
 
 .arrow-angle {
   display: none; }
@@ -538,6 +544,8 @@ a {
   color: white; }
   #horizontal-menu li a {
     color: white; }
+  #horizontal-menu li a:hover {
+    color: black; }
 
 .arrow-angle {
   display: none; }
@@ -693,6 +701,8 @@ a {
   color: white; }
   #horizontal-menu li a {
     color: white; }
+  #horizontal-menu li a:hover {
+    color: black; }
 
 .arrow-angle {
   display: none; }
@@ -848,6 +858,8 @@ a {
   color: white; }
   #horizontal-menu li a {
     color: white; }
+  #horizontal-menu li a:hover {
+    color: black; }
 
 .arrow-angle {
   display: none; }
@@ -861,6 +873,9 @@ a {
 
   .fa-size {
     font-size: 25px !important; }
+
+  .dropdown-menu {
+    min-width: 1000px; }
 
   .social-icons {
     margin-top: 20px; }
@@ -913,7 +928,5 @@ a {
       margin-left: -53px; }
     #horizontal-menu .arrow-angle {
       display: inline-block; } }
-.dropdown-menu {
-  min-width: 1000px; }
 
 /*# sourceMappingURL=customStylesheet.css.map */

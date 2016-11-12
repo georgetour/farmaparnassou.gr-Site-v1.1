@@ -22,6 +22,10 @@
 
   }
 
+  .dropdown-menu{
+    min-width: 1000px;
+  }
+
 
   .social-icons{
     margin-top: 20px;
@@ -60,7 +64,6 @@
 
   //This will show the list horizontal
   #horizontal-menu{
-
     min-width: 680px;
     padding-left: 0;
     margin-left: -300px;
@@ -97,5 +100,11 @@
     }
 
 
+
+
   }
+
+
+
+
 }
