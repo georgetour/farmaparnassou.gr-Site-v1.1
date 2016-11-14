@@ -19,12 +19,12 @@
 </head>
 
 <body>
-<div class="container"><!--Main container-->
+<div id="fullPage" class="container"><!--Main container-->
 
     <div class="row">
 
      <!--Left column-->
-     <div class="col-xs-5 col-sm-6 ">
+     <div class="col-xs-5 col-sm-6 col-lg-8 ">
      <address class="hours"><!--Address and social media icons start --->
          <ul class="social-icons">
             <li>
@@ -58,7 +58,7 @@
      </div><!--End left column-->
 
      <!--Right column-->
-      <div class="col-xs-7 col-sm-6 ">
+      <div class="col-xs-7 col-sm-6 col-lg-4">
             <footer class="footer-rights text-right ">
                 <div >farmaparnassou.gr 2013-2016 All rights reserved</div>
                 <div><a href="http://www.besmartbesimple.com/" target="_blank">Created by beSmartbeSimple.com</a></div>
@@ -74,7 +74,6 @@
 
 
 <!--========BOTTOM ============-->
-
 <!--Navbar-->
  <nav class="navbar navbar-default navbar-fixed-bottom ">
 
@@ -131,6 +130,37 @@
 <!--============End Bottom======================-->
 <script  src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">   </script>
+
+<script>
+    $(document).ready(function () {
+        var img_array = [ 1, 2 ,3 , 4],
+            newIndex = 0,
+            index = 0,
+            interval = 5000;
+        (function changeBg() {
+
+            //  --------------------------
+            //  For random image rotation:
+            //  --------------------------
+
+            //  newIndex = Math.floor(Math.random() * 10) % img_array.length;
+            //  index = (newIndex === index) ? newIndex -1 : newIndex;
+
+            //  ------------------------------
+            //  For sequential image rotation:
+            //  ------------------------------
+
+            index = (index + 1) % img_array.length;
+
+            $('body').css('backgroundImage', function () {
+                console.log('url(images/home-page/main' + img_array[index] + '.jpg)');
+                return 'url(images/home-page/main' + img_array[index] + '.jpg)';
+            });
+            setTimeout(changeBg, interval);
+        })();
+    });
+</script>
+
 
 </body>
 </html>
