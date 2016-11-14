@@ -19,11 +19,20 @@
 </head>
 
 <body>
+
 <div id="fullPage" class="container"><!--Main container-->
+    <!--Animation image-->
+    <div id="maximage">
+        <img class="img-responsive" src="images/home-page/sheeps-hi-res-compressed.jpg" alt="Sheeps in farm" />
+        <img class="img-responsive" src="images/home-page/cow-meat-compressed.jpg" alt="Cow meat    " />
+        <img class="img-responsive" src="images/home-page/making-mounced-meat-compressor.jpg" alt="Making mounced meat"  />
+        <img class="img-responsive" src="images/home-page/cows-in-farm-compressor.jpg" alt="Cows in farm" />
+    </div>
+    <!--End Animation image-->
 
-    <div class="row">
-
-     <!--Left column-->
+    <!--Page content-->
+    <div  class="row">
+        <!--Left column-->
      <div class="col-xs-5 col-sm-6 col-lg-8 ">
      <address class="hours"><!--Address and social media icons start --->
          <ul class="social-icons">
@@ -71,7 +80,7 @@
     </div><!--End row-->
 
 </div><!--End container-->
-
+<!--Page content-->
 
 <!--========BOTTOM ============-->
 <!--Navbar-->
@@ -130,37 +139,16 @@
 <!--============End Bottom======================-->
 <script  src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">   </script>
+<script src="javascript/jquery.cycle.all.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="javascript/jquery.maximage.min.js" type="text/javascript" charset="utf-8"></script>
 
-<script>
-    $(document).ready(function () {
-        var img_array = [ 1, 2 ,3 , 4],
-            newIndex = 0,
-            index = 0,
-            interval = 5000;
-        (function changeBg() {
 
-            //  --------------------------
-            //  For random image rotation:
-            //  --------------------------
-
-            //  newIndex = Math.floor(Math.random() * 10) % img_array.length;
-            //  index = (newIndex === index) ? newIndex -1 : newIndex;
-
-            //  ------------------------------
-            //  For sequential image rotation:
-            //  ------------------------------
-
-            index = (index + 1) % img_array.length;
-
-            $('body').css('backgroundImage', function () {
-                console.log('url(images/home-page/main' + img_array[index] + '.jpg)');
-                return 'url(images/home-page/main' + img_array[index] + '.jpg)';
-            });
-            setTimeout(changeBg, interval);
-        })();
+<script type="text/javascript" charset="utf-8">
+    $(function(){
+        // Trigger maximage
+        jQuery('#maximage').maximage();
     });
 </script>
-
 
 </body>
 </html>
