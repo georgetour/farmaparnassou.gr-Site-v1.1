@@ -25,7 +25,7 @@
     <div id="maximage">
         <img class="img-responsive" src="images/home-page/sheeps-hi-res-compressed.jpg" alt="Sheeps in farm" />
         <img class="img-responsive" src="images/home-page/cow-meat-compressed.jpg" alt="Cow meat    " />
-        <img class="img-responsive" src="images/home-page/making-mounced-meat-compressor.jpg" alt="Making mounced meat"  />
+        <img class="img-responsive" src="images/home-page/IMG_2794.jpg" alt="Making mounced meat"  />
         <img class="img-responsive" src="images/home-page/cows-in-farm-compressor.jpg" alt="Cows in farm" />
     </div>
     <!--End Animation image-->
