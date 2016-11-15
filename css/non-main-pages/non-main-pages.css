@@ -318,6 +318,8 @@ p {
   background-color: #10230f;
   color: white;
   text-align: center; }
+  .footer a {
+    color: white; }
 
 address {
   margin: 0; }

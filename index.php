@@ -129,7 +129,7 @@
                 <li><a href="contact.php">Επικοινωνία</a></li>
             </ul>
             <footer class="footer-big-screens">
-                <div >farmaparnassou.gr 2013-2016 All rights reserved<br> <a href="http://www.besmartbesimple.com/" target="_blank">Created by George Tourtsinakis</div>
+                <div ><a href="copyrights.php">farmaparnassou.gr 2013-2016 All rights reserved</a><br> <a href="http://www.besmartbesimple.com/" target="_blank">Created by George Tourtsinakis</a></div>
             </footer>
         </div><!-- /.navbar-collapse -->
 

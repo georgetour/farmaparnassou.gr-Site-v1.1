@@ -24,14 +24,15 @@ body {
   background-color: rgba(16, 35, 15, 0.8); }
 
 .quote {
+  font-family: 'Greek';
+  margin: 10px 0;
   background-color: rgba(16, 35, 15, 0.8);
   border: 1px solid white;
   border-radius: 10px;
   padding: 5px; }
 
-.quote {
-  font-family: 'Greek';
-  margin: 10px 0; }
+footer a:hover {
+  color: white; }
 
 ul {
   padding: 0; }
@@ -189,14 +190,15 @@ body {
   background-color: rgba(16, 35, 15, 0.8); }
 
 .quote {
+  font-family: 'Greek';
+  margin: 10px 0;
   background-color: rgba(16, 35, 15, 0.8);
   border: 1px solid white;
   border-radius: 10px;
   padding: 5px; }
 
-.quote {
-  font-family: 'Greek';
-  margin: 10px 0; }
+footer a:hover {
+  color: white; }
 
 ul {
   padding: 0; }
@@ -350,14 +352,15 @@ body {
   background-color: rgba(16, 35, 15, 0.8); }
 
 .quote {
+  font-family: 'Greek';
+  margin: 10px 0;
   background-color: rgba(16, 35, 15, 0.8);
   border: 1px solid white;
   border-radius: 10px;
   padding: 5px; }
 
-.quote {
-  font-family: 'Greek';
-  margin: 10px 0; }
+footer a:hover {
+  color: white; }
 
 ul {
   padding: 0; }
@@ -502,14 +505,15 @@ body {
   background-color: rgba(16, 35, 15, 0.8); }
 
 .quote {
+  font-family: 'Greek';
+  margin: 10px 0;
   background-color: rgba(16, 35, 15, 0.8);
   border: 1px solid white;
   border-radius: 10px;
   padding: 5px; }
 
-.quote {
-  font-family: 'Greek';
-  margin: 10px 0; }
+footer a:hover {
+  color: white; }
 
 ul {
   padding: 0; }
@@ -662,14 +666,15 @@ body {
   background-color: rgba(16, 35, 15, 0.8); }
 
 .quote {
+  font-family: 'Greek';
+  margin: 10px 0;
   background-color: rgba(16, 35, 15, 0.8);
   border: 1px solid white;
   border-radius: 10px;
   padding: 5px; }
 
-.quote {
-  font-family: 'Greek';
-  margin: 10px 0; }
+footer a:hover {
+  color: white; }
 
 ul {
   padding: 0; }
@@ -822,14 +827,15 @@ body {
   background-color: rgba(16, 35, 15, 0.8); }
 
 .quote {
+  font-family: 'Greek';
+  margin: 10px 0;
   background-color: rgba(16, 35, 15, 0.8);
   border: 1px solid white;
   border-radius: 10px;
   padding: 5px; }
 
-.quote {
-  font-family: 'Greek';
-  margin: 10px 0; }
+footer a:hover {
+  color: white; }
 
 ul {
   padding: 0; }
