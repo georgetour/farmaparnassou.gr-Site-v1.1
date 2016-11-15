@@ -35,7 +35,7 @@
                      <h3 class="hook-img">
                          <span>Μοσχάρι</span>
                      </h3>
-                     <img class="img-responsive product-image" src="images/meat-page/IMG_2810.JPG" alt="Μοσχάρι">
+                     <img class="img-responsive product-image" src="images/meat-page/1.%20Μοσχάρι.jpg" alt="Μοσχάρι">
                  </div>
                 </div><!--End Left or up column-->
                 <div class="col-xs-12 col-lg-9 product-text "><!--Right column-->
@@ -55,7 +55,7 @@
                             <h3 class="hook-img">
                                 <span>Χοιρινό</span>
                             </h3>
-                            <img class="img-responsive product-image" src="images/meat-page/IMG_20160721_160613.jpg"  alt="Χοιρινό">
+                            <img class="img-responsive product-image" src="images/meat-page/2.%20Χοιρινό.jpg"  alt="Χοιρινό">
                         </div>
                     </div><!--End Left or up column-->
                     <div class="col-xs-12 col-lg-9 product-text "><!--Right column-->
@@ -121,7 +121,7 @@
                             <h3 class="hook-img">
                                 <span>Αμνοερίφια</span>
                             </h3>
-                            <img class="img-responsive product-image" src="images/meat-page/ribs.jpg"  alt="Αρνίσια παϊδάκια">
+                            <img class="img-responsive product-image" src="images/meat-page/3.%20Αμνοερίφια.jpg"  alt="Αρνίσια παϊδάκια">
                         </div>
                     </div><!--End Left or up column-->
                     <div class="col-xs-12 col-lg-9 product-text "><!--Right column-->

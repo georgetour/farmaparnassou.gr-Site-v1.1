@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Greek';
-  src: url(../../fonts/GFSSolomos.otf); }
+  src: url(../css/fonts/GFSSolomos.otf); }
 /* adjust body when menu is open */
 /*first child of #page-content so it doesn't shift around*/
 .no-margin-top {
@@ -185,7 +185,7 @@ body {
 #meat-page {
   background-color: #cfea4d; }
   #meat-page #top-background {
-    background: url("../../images/meat-page/meat-frames.jpg") no-repeat;
+    background: url("../../images/meat-page/top-banner.jpg") no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover; }
@@ -348,7 +348,7 @@ address {
 
 @font-face {
   font-family: 'Greek';
-  src: url(../../fonts/GFSSolomos.otf); }
+  src: url(../css/fonts/GFSSolomos.otf); }
 @media only screen and (max-width: 479px) {
   #butcher-shop-page {
     background: url("../../images/butcher-shop/Farma.2.jpg") no-repeat center center fixed;
@@ -415,7 +415,7 @@ address {
     z-index: 999; } }
 @font-face {
   font-family: 'Greek';
-  src: url(../../fonts/GFSSolomos.otf); }
+  src: url(../css/fonts/GFSSolomos.otf); }
 @media only screen and (min-width: 480px) and (max-width: 719px) {
   #butcher-shop-page {
     background: url("../../images/butcher-shop/Farma.2.jpg") no-repeat center center fixed;
@@ -474,7 +474,7 @@ address {
     height: 400px; } }
 @font-face {
   font-family: 'Greek';
-  src: url(../../fonts/GFSSolomos.otf); }
+  src: url(../css/fonts/GFSSolomos.otf); }
 @media only screen and (min-width: 720px) and (max-width: 767px) {
   .top-icons-nav {
     padding: 25px 0 8px 15px; }
@@ -518,7 +518,7 @@ address {
     height: 1100px; } }
 @font-face {
   font-family: 'Greek';
-  src: url(../../fonts/GFSSolomos.otf); }
+  src: url(../css/fonts/GFSSolomos.otf); }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   #butcher-shop-page {
     background: url("../../images/butcher-shop/Farma.2.jpg") no-repeat center center fixed;
@@ -585,7 +585,7 @@ address {
     height: 500px; } }
 @font-face {
   font-family: 'Greek';
-  src: url(../../fonts/GFSSolomos.otf); }
+  src: url(../css/fonts/GFSSolomos.otf); }
 @media only screen and (width: 1024px) {
   #butcher-shop-page {
     background: url("../../images/butcher-shop/Farma.2.jpg") no-repeat center center fixed;
@@ -702,7 +702,7 @@ address {
     height: 1000px; } }
 @font-face {
   font-family: 'Greek';
-  src: url(../../fonts/GFSSolomos.otf); }
+  src: url(../css/fonts/GFSSolomos.otf); }
 @media only screen and (min-width: 1200px) {
   #horizontal-menu {
     min-width: 680px;
@@ -803,7 +803,7 @@ address {
     height: 1900px; } }
 @font-face {
   font-family: 'Greek';
-  src: url(../../fonts/GFSSolomos.otf); }
+  src: url(../css/fonts/GFSSolomos.otf); }
 @media only screen and (min-width: 1200px) and (max-height: 1023px) {
   #horizontal-menu {
     min-width: 680px;
