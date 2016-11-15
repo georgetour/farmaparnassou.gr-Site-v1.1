@@ -15,6 +15,10 @@
     <!--Font Awesome Icons-->
     <link href="css/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+    <!--SEO-->
+    <meta name="description" content="Στο κρεοπωλείο μας Φάρμα Παρνασσού θα βρείτε κρέατα και προϊόντα ταυτόσημα με τη ζωή του Ελληνικού χωριού.">
+    <meta name="keywords" content="φαρμα παρνασσου,farma parnassou,farmaparnassou,κρεατα,Νεο Φαληρο,κρεατα Νεο Φαληρο,ελληνικα προϊοντα,ελληνικα κρεατα,κρεοπωλειο,κρεοπωλειο Νεο Φαληρο,κρεοπωλειο Πειραιας,κρεατα Πειραιας,κρεας,kreas,φαρμα,ελληνικο κρεοπωλειο,διατροφη">
+    <meta name="author" content="Farma parnassou">
 
 </head>
 
@@ -23,10 +27,10 @@
 <div id="fullPage" class="container"><!--Main container-->
     <!--Animation image-->
     <div id="maximage">
-        <img class="img-responsive" src="images/home-page/sheeps-hi-res-compressed.jpg" alt="Sheeps in farm" />
-        <img class="img-responsive" src="images/home-page/cow-meat-compressed.jpg" alt="Cow meat    " />
-        <img class="img-responsive" src="images/home-page/IMG_2794.jpg" alt="Making mounced meat"  />
-        <img class="img-responsive" src="images/home-page/cows-in-farm-compressor.jpg" alt="Cows in farm" />
+        <img class="img-responsive" src="images/home-page/sheeps-hi-res-compressed.jpg" alt="Sheeps in farm background" />
+        <img class="img-responsive" src="images/home-page/cow-meat-compressed.jpg" alt="Cow meat background" />
+        <img class="img-responsive" src="images/home-page/IMG_2794.jpg" alt="Making mounced meat background"  />
+        <img class="img-responsive" src="images/home-page/cows-in-farm-compressor.jpg" alt="Cows in farm background" />
     </div>
     <!--End Animation image-->
 
