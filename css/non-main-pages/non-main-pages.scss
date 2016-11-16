@@ -103,24 +103,36 @@ body{
   z-index: 1;
 
 
+
 }
 
 .hook-img{
     background: url("../../images/product-name.png")no-repeat;
     position: absolute;
-    top: -26px;
+    top: -6px;
     left: -15px;
     width: 320px;
     height: 100px;
     background-size: 180px 50px;
-  span{
+
+
+
+  .div-center h3{
+    margin-top: 5px;
     font-family: Greek;
     font-style: italic;
     font-size: 18px;
     color: white;
     position: absolute;
-    top: 10px;
-    left: 55px;
+    top: 6px;
+    left: 0px;
+    width: 178px;
+    height: 100px;
+    text-align: center;
+
+
+
+
   }
   .long-product{
     position: absolute;
@@ -169,7 +181,9 @@ body{
   background-color: white;
   color: black;
     line-height: 33px;
+  border-radius:3% ;
   }
+
 }
 
 
@@ -272,6 +286,19 @@ p{
     color: white;
   }
 }
+
+//Ul li for products as customer needed
+.product-text{
+ & ul{
+
+      padding-left: 50px;
+
+  }
+}
+
+
+
+
 
 
 address{

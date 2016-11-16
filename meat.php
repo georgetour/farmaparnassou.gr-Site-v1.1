@@ -32,9 +32,11 @@
             <div class="row product-row">
                 <div class="col-xs-12  col-lg-3"><!--Left or up column-->
                  <div class="product-name">
-                     <h3 class="hook-img">
-                         <span>Μοσχάρι</span>
-                     </h3>
+                     <div class="hook-img">
+                         <div class="div-center" >
+                             <h3 >Μοσχάρι</h3>
+                         </div>
+                     </div>
                      <img class="img-responsive product-image" src="images/meat-page/1.%20Μοσχάρι.jpg" alt="Μοσχάρι">
                  </div>
                 </div><!--End Left or up column-->
@@ -52,9 +54,11 @@
                 <div class="row product-row">
                     <div class="col-xs-12  col-lg-3"><!--Left or up column-->
                         <div class="product-name">
-                            <h3 class="hook-img">
-                                <span>Χοιρινό</span>
-                            </h3>
+                            <div class="hook-img">
+                                <div class="div-center" >
+                                    <h3>Χοιρινό</h3>
+                                </div>
+                            </div>
                             <img class="img-responsive product-image" src="images/meat-page/2.%20Χοιρινό.jpg"  alt="Χοιρινό">
                         </div>
                     </div><!--End Left or up column-->
@@ -72,9 +76,11 @@
                 <div class="row product-row">
                     <div class="col-xs-12  col-lg-3"><!--Left or up column-->
                         <div class="product-name">
-                            <h3 class="hook-img">
-                                <span>Λουκάνικα </span>
-                            </h3>
+                            <div class="hook-img">
+                                <div class="div-center" >
+                                    <h3>Λουκάνικα</h3>
+                                </div>
+                            </div>
                             <img class="img-responsive product-image" src="images/meat-page/Loukanika.jpg" alt="Λουκάνικα">
                         </div>
                     </div><!--End Left or up column-->
@@ -94,9 +100,11 @@
                 <div class="row product-row">
                     <div class="col-xs-12  col-lg-3"><!--Left or up column-->
                         <div class="product-name">
-                            <h3 class="hook-img">
-                                <span>Πουλερικά</span>
-                            </h3>
+                            <div class="hook-img">
+                                <div class="div-center" >
+                                    <h3>Πουλερικά</h3>
+                                </div>
+                            </div>
                             <img class="img-responsive product-image" src="images/meat-page/Kotopoula%20Eleftheras%20Boskis%20(1).jpg"  alt="Κοτόπουλο">
                         </div>
                     </div><!--End Left or up column-->
@@ -117,10 +125,14 @@
             <section><!--Αμνοερίφια section-->
                 <div class="row product-row">
                     <div class="col-xs-12  col-lg-3"><!--Left or up column-->
+
                         <div class="product-name">
-                            <h3 class="hook-img">
-                                <span>Αμνοερίφια</span>
-                            </h3>
+                            <div class="hook-img">
+                                <div class="div-center" >
+                                    <h3 style="text-align: center">Αμνοερίφια</h3>
+                                </div>
+                            </div>
+
                             <img class="img-responsive product-image" src="images/meat-page/3.%20Αμνοερίφια.jpg"  alt="Αρνίσια παϊδάκια">
                         </div>
                     </div><!--End Left or up column-->
@@ -139,10 +151,12 @@
                 <div class="row product-row">
                     <div class="col-xs-12  col-lg-3"><!--Left or up column-->
                         <div class="product-name">
-                            <h3 class="hook-img">
-                                <span class="long-product">Κρεατοαπολάυσεις</span>
-                            </h3>
-                            <img style="height: 250px" class="img-responsive product-image" src="images/meat-page/IMG_2782.jpg"  alt="Κρεατολιχουδιές">
+                            <div class="hook-img">
+                                <div class="div-center" >
+                                    <h3>Κρεατολιχουδιές</h3>
+                                </div>
+                            </div>
+                            <img  class="img-responsive product-image" src="images/meat-page/5.%20Έτοιμες%20Λύσεις.PNG"  alt="Κρεατολιχουδιές">
                         </div>
                     </div><!--End Left or up column-->
                     <div class="col-xs-12 col-lg-9 product-text "><!--Right column-->

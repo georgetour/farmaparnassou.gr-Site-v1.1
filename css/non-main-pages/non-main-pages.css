@@ -219,19 +219,23 @@ body {
 .hook-img {
   background: url("../../images/product-name.png") no-repeat;
   position: absolute;
-  top: -26px;
+  top: -6px;
   left: -15px;
   width: 320px;
   height: 100px;
   background-size: 180px 50px; }
-  .hook-img span {
+  .hook-img .div-center h3 {
+    margin-top: 5px;
     font-family: Greek;
     font-style: italic;
     font-size: 18px;
     color: white;
     position: absolute;
-    top: 10px;
-    left: 55px; }
+    top: 6px;
+    left: 0px;
+    width: 178px;
+    height: 100px;
+    text-align: center; }
   .hook-img .long-product {
     position: absolute;
     top: 10px;
@@ -260,7 +264,8 @@ body {
 #horizontal-menu .product-active {
   background-color: white;
   color: black;
-  line-height: 33px; }
+  line-height: 33px;
+  border-radius: 3%; }
 
 .emphasis {
   font-style: italic;
@@ -320,6 +325,9 @@ p {
   text-align: center; }
   .footer a {
     color: white; }
+
+.product-text ul {
+  padding-left: 50px; }
 
 address {
   margin: 0; }
@@ -796,7 +804,7 @@ address {
   .navbar {
     border-radius: 0; }
 
-  #meat-page .footer {
+  .footer {
     position: relative;
     width: 100%; }
 
@@ -851,6 +859,11 @@ address {
     display: block;
     position: absolute;
     bottom: 0;
-    width: 100%; } }
+    width: 100%; }
+
+  #meat-page .footer-absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0; } }
 
 /*# sourceMappingURL=non-main-pages.css.map */

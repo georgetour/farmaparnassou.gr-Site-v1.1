@@ -27,10 +27,10 @@
 <div id="fullPage" class="container"><!--Main container-->
     <!--Animation image-->
     <div id="maximage">
-        <img class="img-responsive" src="images/home-page/sheeps-hi-res-compressed.jpg" alt="Sheeps in farm background" />
-        <img class="img-responsive" src="images/home-page/cow-meat-compressed.jpg" alt="Cow meat background" />
-        <img class="img-responsive" src="images/home-page/IMG_2794.jpg" alt="Making mounced meat background"  />
-        <img class="img-responsive" src="images/home-page/cows-in-farm-compressor.jpg" alt="Cows in farm background" />
+        <img  src="images/home-page/sheeps-hi-res-compressed.jpg" alt="Sheeps in farm background" />
+        <img  src="images/home-page/cow-meat-compressed.jpg" alt="Cow meat background" />
+        <img  src="images/home-page/IMG_2794.jpg" alt="Making mounced meat background"  />
+        <img  src="images/home-page/cows-in-farm-compressor.jpg" alt="Cows in farm background" />
     </div>
     <!--End Animation image-->
 
@@ -111,21 +111,21 @@
                     <ul id="horizontal-menu" class="dropdown-menu">
                         <li><a class="arrow-angle" href="meat.php">Κρέατα</a></li>
                         <img class="arrow-angle" src="images/home-page/arrow-angle.png">
-                        <li><a class="arrow-angle" href="#">Τυριά</a></li>
+                        <li><a class="arrow-angle" href="tyria.php">Τυριά</a></li>
                         <img class="arrow-angle" src="images/home-page/arrow-angle.png">
-                        <li><a class="arrow-angle" href="#">Ζυμαρικά - Όσπρια</a></li>
+                        <li><a class="arrow-angle" href="zimarika-ospria.php">Ζυμαρικά - Όσπρια</a></li>
                         <img class="arrow-angle" src="images/home-page/arrow-angle.png">
-                        <li><a class="arrow-angle" href="#">Κρασιά</a></li>
+                        <li><a class="arrow-angle" href="krasia.php">Κρασιά</a></li>
                         <img class="arrow-angle" src="images/home-page/arrow-angle.png">
-                        <li><a class="arrow-angle" href="#">Σάλτσες </a></li>
+                        <li><a class="arrow-angle" href="saltses.php">Σάλτσες </a></li>
                         <img class="arrow-angle" src="images/home-page/arrow-angle.png">
-                        <li><a class="arrow-angle" href="#">Μέλι </a></li>
+                        <li><a class="arrow-angle" href="meli.php">Μέλι </a></li>
 
                     </ul>
                 </li>
                 <li><a class="arrow-angle" href="recipes.php">Συνταγές</a>
                 </li>
-                <li><a href="what-they-say.php">Τι είπαν για εμάς</a></li>
+                <li><a href="gastronomos-farma-parnassou.php">Τι είπαν για εμάς</a></li>
                 <li><a href="contact.php">Επικοινωνία</a></li>
             </ul>
             <footer class="footer-big-screens">

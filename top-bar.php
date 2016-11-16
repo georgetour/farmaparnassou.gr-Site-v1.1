@@ -54,19 +54,19 @@
                     <ul id="horizontal-menu" class="dropdown-menu">
                         <li><a href="meat.php">Κρέατα</a></li>
                         <img class="arrow-angle" src="images/home-page/arrow-angle.png">
-                        <li><a href="http://">Τυριά</a></li>
+                        <li><a href="tyria.php">Τυριά</a></li>
                         <img class="arrow-angle" src="images/home-page/arrow-angle.png">
-                        <li><a href="http://">Ζυμαρικά - Όσπρια</a></li>
+                        <li><a href="zimarika-ospria.php">Ζυμαρικά - Όσπρια</a></li>
                         <img class="arrow-angle" src="images/home-page/arrow-angle.png">
-                        <li><a href="http://">Κρασιά</a></li>
+                        <li><a href="krasia.php">Κρασιά</a></li>
                         <img class="arrow-angle" src="images/home-page/arrow-angle.png">
-                        <li><a href="http://">Σάλτσες</a></li>
+                        <li><a href="saltses.php">Σάλτσες</a></li>
                         <img class="arrow-angle" src="images/home-page/arrow-angle.png">
-                        <li><a href="http://">Μέλι</a></li>
+                        <li><a href="meli.php">Μέλι</a></li>
                     </ul>
                 </li>
                 <li><a href="http://about">Συνταγές</a></li>
-                <li><a href="what-they-say.php">Τι είπαν για εμάς</a></li>
+                <li><a href="gastronomos-farma-parnassou.php">Τι είπαν για εμάς</a></li>
                 <li><a href="contact.php">Επικοινωνία</a></li>
             </ul>
 
