@@ -5,19 +5,9 @@
 
     <title>Φάρμα Παρνασσού - Κρέατα</title>
 
-    <!--Bootstrap-->
-    <link  href="css/bootstrap.min.css" rel="stylesheet" type="text/css" >
+    <?php include 'stylesheets.php'?>
 
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <script async src="scripts/index.js"></script>
-
-    <!--Custom style-->
-    <link href="css/non-main-pages/non-main-pages.css" rel="stylesheet" type="text/css">
-
-    <!--Font Awesome Icons-->
-    <link href="css/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-<body id="meat-page">
+<body id="products-page">
 <?php include 'top-bar.php'?>
 
 
@@ -37,7 +27,7 @@
                              <h3 >Μοσχάρι</h3>
                          </div>
                      </div>
-                     <img class="img-responsive product-image" src="images/meat-page/1.%20Μοσχάρι.jpg" alt="Μοσχάρι">
+                     <img class="img-responsive product-image" src="images/meat-page/mosxari.jpg" alt="Μοσχάρι">
                  </div>
                 </div><!--End Left or up column-->
                 <div class="col-xs-12 col-lg-9 product-text "><!--Right column-->
@@ -59,7 +49,7 @@
                                     <h3>Χοιρινό</h3>
                                 </div>
                             </div>
-                            <img class="img-responsive product-image" src="images/meat-page/2.%20Χοιρινό.jpg"  alt="Χοιρινό">
+                            <img class="img-responsive product-image" src="images/meat-page/xoirino-compressor.jpg"  alt="Χοιρινό">
                         </div>
                     </div><!--End Left or up column-->
                     <div class="col-xs-12 col-lg-9 product-text "><!--Right column-->
@@ -105,7 +95,7 @@
                                     <h3>Πουλερικά</h3>
                                 </div>
                             </div>
-                            <img class="img-responsive product-image" src="images/meat-page/Kotopoula%20Eleftheras%20Boskis%20(1).jpg"  alt="Κοτόπουλο">
+                            <img class="img-responsive product-image" src="images/meat-page/Kotopoula.jpg"  alt="Κοτόπουλο">
                         </div>
                     </div><!--End Left or up column-->
                     <div class="col-xs-12 col-lg-9 product-text "><!--Right column-->
@@ -133,7 +123,7 @@
                                 </div>
                             </div>
 
-                            <img class="img-responsive product-image" src="images/meat-page/3.%20Αμνοερίφια.jpg"  alt="Αρνίσια παϊδάκια">
+                            <img class="img-responsive product-image" src="images/meat-page/amnoerifia.jpg"  alt="Αρνίσια παϊδάκια">
                         </div>
                     </div><!--End Left or up column-->
                     <div class="col-xs-12 col-lg-9 product-text "><!--Right column-->
@@ -156,7 +146,7 @@
                                     <h3>Κρεατολιχουδιές</h3>
                                 </div>
                             </div>
-                            <img  class="img-responsive product-image" src="images/meat-page/5.%20Έτοιμες%20Λύσεις.PNG"  alt="Κρεατολιχουδιές">
+                            <img  class="img-responsive product-image" src="images/meat-page/kreatolixoydies-compressor.jpg"  alt="Κρεατολιχουδιές">
                         </div>
                     </div><!--End Left or up column-->
                     <div class="col-xs-12 col-lg-9 product-text "><!--Right column-->

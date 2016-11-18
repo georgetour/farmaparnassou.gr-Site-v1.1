@@ -1,6 +1,11 @@
 @import "../variables";
 @import "../../css/non-main-pages/slide-menu/slide-menu.scss";
 
+@font-face {
+  font-family: 'Greek';
+  src: url(../fonts/GFSSolomos.otf);
+}
+
 //html 100%
 html{
   height:100%;
@@ -19,7 +24,7 @@ body{
 
 //======History page========
 #history{
-  background: url("../../images/history/cowbackground.jpg")no-repeat center center fixed;
+  background: url("../../images/home-page/cows-in-farm-compressor.jpg")no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -37,7 +42,7 @@ body{
 
 //=============Το κρεοπωλέιο μας=============
 #butcher-shop-page{
-  background: url("../../images/butcher-shop/Farma.2.jpg")no-repeat ;
+  background: url("../../images/butcher-shop/kreopoleio-compressor.jpg")no-repeat ;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -58,10 +63,10 @@ body{
 //==========End Το κρεοπωλέιο μας==============
 
 //==========Meat page================
-#meat-page{
+#products-page {
   background-color: $products-background;;
   #top-background{
-    background: url("../../images/meat-page/top-banner.jpg")no-repeat   ;
+    background: url("../../images/meat-page/top-banner2-compressor.jpg")no-repeat   ;
     background-size:cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -85,7 +90,7 @@ body{
 .product-category{
   text-align: center;
   font-family: Greek;
-  font-style: italic;
+
   border-bottom: 1px solid $products-background;
   padding-bottom: 10px;
 }
@@ -120,8 +125,8 @@ body{
   .div-center h3{
     margin-top: 5px;
     font-family: Greek;
-    font-style: italic;
-    font-size: 18px;
+
+    font-size: 20px;
     color: white;
     position: absolute;
     top: 6px;
@@ -185,14 +190,23 @@ body{
   }
 
 }
-
-
 //=======What they say========
 .emphasis{
-   font-style: italic;
-   font-weight: bold;
-   font-family: Greek;
- }
+  font-style: italic;
+  font-weight: bold;
+  font-family: Greek;
+}
+
+//=====Gastronomos=========
+.gastronomos{
+  .emphasis {
+    font-style: normal;
+    font-weight: bold;
+    font-family: Greek;
+  }
+}
+
+
 
 //=======End What they say========
 
@@ -202,6 +216,12 @@ body{
     border: 1px solid black;
   }
 
+  #email{
+    font-size: 16px;
+    a{
+      color: black;
+    }
+  }
 }
 
 .navbar-default{

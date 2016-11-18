@@ -7,16 +7,16 @@
             <div class="top-icons-nav">
                 <address class="hours"><!--Address and social media icons start --->
                     <ul class="social-icons">
-                        <li><a class="badge social facebook" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
+                        <li><a class="badge social facebook" href="https://www.facebook.com/farmaparnassou" target="_blank">
                                 <i class="fa fa-facebook fa-size"></i></a>
                         </li>
-                        <li><a class="badge social twitter" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
+                        <li><a class="badge social twitter" href=" https://twitter.com/farmaparnassou" target="_blank">
                                 <i class="fa fa-twitter fa-size"></i></a>
                         </li>
-                        <li><a class="badge social instagram" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
+                        <li><a class="badge social instagram" href=" https://www.instagram.com/farmaparnassou/?hl=en" target="_blank">
                                 <i class="fa fa-instagram fa-size"></i></a>
                         </li>
-                        <li><a class="badge social pinterest" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
+                        <li><a class="badge social pinterest" href="https://www.pinterest.com/farmaparnassou" target="_blank">
                                 <i class="fa fa-pinterest fa-size"></i>
                             </a>
                         </li>

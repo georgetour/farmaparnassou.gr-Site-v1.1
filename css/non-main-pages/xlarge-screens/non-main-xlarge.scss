@@ -17,11 +17,6 @@
     display: block;
 }
 
-  #butcher-shop-page {
-    background: url("../../images/butcher-shop/Farma.2.jpg") no-repeat ;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
 
     .phone {
       color: white;
@@ -35,8 +30,6 @@
   }
 
 
-
-}
 @media only screen and (min-width:1280px) and (min-height: 1024px ){
   footer {
     display: block;
@@ -45,11 +38,6 @@
     width: 100%;
   }
 
-  #butcher-shop-page {
-    background: url("../../images/butcher-shop/Farma.2.jpg") no-repeat ;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
 
     .phone {
       color: white;
@@ -61,7 +49,7 @@
     }
 
   }
-}
+
 
 @media only screen and (min-width:1400px) and (min-height: 900px ) {
   #history {
@@ -73,7 +61,7 @@
     }
   }
 
-  #meat-page .footer-absolute{
+  #products-page .footer-absolute{
     position: absolute;
     bottom: 0;
     left: 0;

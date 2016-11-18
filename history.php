@@ -5,17 +5,7 @@
 
     <title>Φάρμα Παρνασσού - Η ιστορία μας</title>
 
-    <!--Bootstrap-->
-    <link  href="css/bootstrap.min.css" rel="stylesheet" type="text/css" >
-
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <script async src="scripts/index.js"></script>
-
-
-    <link href="css/non-main-pages/non-main-pages.css" rel="stylesheet" type="text/css">
-
-    <!--Font Awesome Icons-->
-    <link href="css/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <?php include 'stylesheets.php'?>
 
 <body id="history">
 
@@ -51,7 +41,7 @@
             </div>
 
             <div class="col-xs-12 col-lg-3 "><!--Right column-->
-                 <img class="image-figure img-responsive" src="images/history/granpa-with-kids.jpg" alt="Παππούς Νίκος με Γιώργο και Κώστα " >
+                 <img class="image-figure img-responsive" src="images/history/granpa-with-kids3-compressor.jpg" alt="Παππούς Νίκος με Γιώργο και Κώστα " >
             </div>
         </article>
     </div><!--Full page container end-->

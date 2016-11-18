@@ -17,7 +17,7 @@
     <!--Font Awesome Icons-->
     <link href="css/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-<body id="meat-page">
+<body id="products-page" class="gastronomos">
 <?php include 'top-bar.php'?>
 
 

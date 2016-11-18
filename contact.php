@@ -3,21 +3,11 @@
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Φάρμα Παρνασσού - Κρέατα</title>
+    <title>Φάρμα Παρνασσού - Επικοινωνία</title>
 
-    <!--Bootstrap-->
-    <link  href="css/bootstrap.min.css" rel="stylesheet" type="text/css" >
+    <?php include 'stylesheets.php'?>
 
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <script async src="scripts/index.js"></script>
-
-    <!--Custom style-->
-    <link href="css/non-main-pages/non-main-pages.css" rel="stylesheet" type="text/css">
-
-    <!--Font Awesome Icons-->
-    <link href="css/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-<body id="meat-page" class="contact-page">
+<body id="products-page" class="contact-page">
 <?php include 'top-bar.php'?>
 
 
@@ -36,15 +26,17 @@
                             <p>Τηλέφωνο : 2104830060</p>
                             <p>Διεύθυνση : Καραισκάκη 6 & Ειρήνης 33</p>
                             <p>Περιοχή : Νέο Φάληρο, Πειραιάς</p>
-                            <p>email : farmaparnassou@yahoo.gr</p>
                             <p>Ωράριο</p>
                             <p>Δευ-Τετ-Σαβ 8:00-18:00</p>
                             <p>Τρίτη-Πέμπτη-Παρασκευή  8:00-21:00</p>
+                            <p id="email">
+                                <a href="mailto:farmaparnassou@yahoo.gr" target="_top">
+                                email : farmaparnassou@yahoo.gr</p>
                             </address>
                         </div>
                     </div><!--End Left or up column-->
                     <div class="col-xs-12 col-lg-7  "><!--Right column-->
-                        <img class="contact-image img-responsive " src="images/contact/IMG_2794.JPG" alt="George and Kostas welcoming">
+                        <img class="contact-image img-responsive " src="images/home-page/george-kostas-compressor.jpg" alt="George and Kostas welcoming">
 
                     </div>
                 </div>

@@ -5,17 +5,7 @@
 
     <title>Φάρμα Παρνασσού - Το κρεοπωλείο μας</title>
 
-    <!--Bootstrap-->
-    <link  href="css/bootstrap.min.css" rel="stylesheet" type="text/css" >
-
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <script async src="scripts/index.js"></script>
-
-    <!--Custom style-->
-    <link href="css/non-main-pages/non-main-pages.css" rel="stylesheet" type="text/css">
-
-    <!--Font Awesome Icons-->
-    <link href="css/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <?php include 'stylesheets.php'?>
 
 <body id="butcher-shop-page">
 <?php include 'top-bar.php'?>

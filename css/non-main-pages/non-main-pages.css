@@ -1,6 +1,3 @@
-@font-face {
-  font-family: 'Greek';
-  src: url(../css/fonts/GFSSolomos.otf); }
 /* adjust body when menu is open */
 /*first child of #page-content so it doesn't shift around*/
 .no-margin-top {
@@ -145,6 +142,9 @@
 
   .collapse.in {
     display: block !important; } }
+@font-face {
+  font-family: 'Greek';
+  src: url(../fonts/GFSSolomos.otf); }
 html {
   height: 100%;
   min-height: 100%; }
@@ -158,7 +158,7 @@ body {
   color: black; }
 
 #history {
-  background: url("../../images/history/cowbackground.jpg") no-repeat center center fixed;
+  background: url("../../images/home-page/cows-in-farm-compressor.jpg") no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover; }
@@ -168,7 +168,7 @@ body {
     background-color: rgba(255, 255, 255, 0.4); }
 
 #butcher-shop-page {
-  background: url("../../images/butcher-shop/Farma.2.jpg") no-repeat;
+  background: url("../../images/butcher-shop/kreopoleio-compressor.jpg") no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover; }
@@ -182,26 +182,25 @@ body {
     font-size: 22px;
     font-family: Greek; }
 
-#meat-page {
+#products-page {
   background-color: #cfea4d; }
-  #meat-page #top-background {
-    background: url("../../images/meat-page/top-banner.jpg") no-repeat;
+  #products-page #top-background {
+    background: url("../../images/meat-page/top-banner2-compressor.jpg") no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover; }
-  #meat-page .full-article {
+  #products-page .full-article {
     background-color: white;
     height: 100%;
     padding-bottom: 140px;
     border-radius: 10px;
     padding: 10px; }
-  #meat-page .phone {
+  #products-page .phone {
     color: white; }
 
 .product-category {
   text-align: center;
   font-family: Greek;
-  font-style: italic;
   border-bottom: 1px solid #cfea4d;
   padding-bottom: 10px; }
 
@@ -227,8 +226,7 @@ body {
   .hook-img .div-center h3 {
     margin-top: 5px;
     font-family: Greek;
-    font-style: italic;
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     position: absolute;
     top: 6px;
@@ -272,8 +270,17 @@ body {
   font-weight: bold;
   font-family: Greek; }
 
+.gastronomos .emphasis {
+  font-style: normal;
+  font-weight: bold;
+  font-family: Greek; }
+
 .contact-page .emphasis {
   border: 1px solid black; }
+.contact-page #email {
+  font-size: 16px; }
+  .contact-page #email a {
+    color: black; }
 
 .navbar-default {
   border-left: none;
@@ -356,9 +363,6 @@ address {
   margin-right: auto;
   margin-left: auto; }
 
-@font-face {
-  font-family: 'Greek';
-  src: url(../css/fonts/GFSSolomos.otf); }
 @media only screen and (max-width: 479px) {
   #butcher-shop-page {
     background: url("../../images/butcher-shop/Farma.2.jpg") no-repeat center center fixed;
@@ -416,16 +420,15 @@ address {
     text-align: center;
     font-style: italic;
     font-family: Greek;
-    font-size: 25px; } }
+    font-size: 25px; }
+  .contact-page #email {
+    font-size: 12px; } }
 @media only screen and (min-width: 410px) and (max-width: 478px) {
   .logo-absolute {
     position: absolute;
     top: 20px;
     right: 20px;
     z-index: 999; } }
-@font-face {
-  font-family: 'Greek';
-  src: url(../css/fonts/GFSSolomos.otf); }
 @media only screen and (min-width: 480px) and (max-width: 719px) {
   #butcher-shop-page {
     background: url("../../images/butcher-shop/Farma.2.jpg") no-repeat center center fixed;
@@ -482,9 +485,6 @@ address {
     font-size: 25px; }
   .contact-page .google-map {
     height: 400px; } }
-@font-face {
-  font-family: 'Greek';
-  src: url(../css/fonts/GFSSolomos.otf); }
 @media only screen and (min-width: 720px) and (max-width: 767px) {
   .top-icons-nav {
     padding: 25px 0 8px 15px; }
@@ -519,16 +519,13 @@ address {
     position: absolute;
     width: 100%; }
 
-  #meat-page .footer {
+  #products-page .footer {
     position: relative;
     width: 100%; }
 
   .what-they-say {
     width: 100%;
     height: 1100px; } }
-@font-face {
-  font-family: 'Greek';
-  src: url(../css/fonts/GFSSolomos.otf); }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   #butcher-shop-page {
     background: url("../../images/butcher-shop/Farma.2.jpg") no-repeat center center fixed;
@@ -593,9 +590,6 @@ address {
     font-size: 25px; }
   .contact-page .google-map {
     height: 500px; } }
-@font-face {
-  font-family: 'Greek';
-  src: url(../css/fonts/GFSSolomos.otf); }
 @media only screen and (width: 1024px) {
   #butcher-shop-page {
     background: url("../../images/butcher-shop/Farma.2.jpg") no-repeat center center fixed;
@@ -710,9 +704,6 @@ address {
   .what-they-say {
     width: 100%;
     height: 1000px; } }
-@font-face {
-  font-family: 'Greek';
-  src: url(../css/fonts/GFSSolomos.otf); }
 @media only screen and (min-width: 1200px) {
   #horizontal-menu {
     min-width: 680px;
@@ -731,19 +722,14 @@ address {
   .arrow-angle {
     display: inline-block; }
 
-  #butcher-shop-page {
-    background: url("../../images/butcher-shop/Farma.2.jpg") no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover; }
-    #butcher-shop-page .phone {
-      color: white; }
-    #butcher-shop-page h1 {
-      font-size: 27px; }
-    #butcher-shop-page .iPad-portrait-left {
-      margin-left: 72%; }
-    #butcher-shop-page .iPad-portrait-left {
-      width: 29.6666%; }
+  #butcher-shop-page .phone {
+    color: white; }
+  #butcher-shop-page h1 {
+    font-size: 27px; }
+  #butcher-shop-page .iPad-portrait-left {
+    margin-left: 72%; }
+  #butcher-shop-page .iPad-portrait-left {
+    width: 29.6666%; }
 
   #history .article-with-opacity {
     height: 460px; }
@@ -811,9 +797,6 @@ address {
   .what-they-say {
     width: 100%;
     height: 1900px; } }
-@font-face {
-  font-family: 'Greek';
-  src: url(../css/fonts/GFSSolomos.otf); }
 @media only screen and (min-width: 1200px) and (max-height: 1023px) {
   #horizontal-menu {
     min-width: 680px;
@@ -828,16 +811,11 @@ address {
   footer {
     display: block; }
 
-  #butcher-shop-page {
-    background: url("../../images/butcher-shop/Farma.2.jpg") no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover; }
-    #butcher-shop-page .phone {
-      color: white; }
+  .phone {
+    color: white; } }
+#history .footer {
+  margin-top: 100px; }
 
-  #history .footer {
-    margin-top: 100px; } }
 @media only screen and (min-width: 1280px) and (min-height: 1024px) {
   footer {
     display: block;
@@ -845,15 +823,11 @@ address {
     bottom: 0;
     width: 100%; }
 
-  #butcher-shop-page {
-    background: url("../../images/butcher-shop/Farma.2.jpg") no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover; }
-    #butcher-shop-page .phone {
-      color: white; }
-    #butcher-shop-page h1 {
-      font-size: 27px; } }
+  .phone {
+    color: white; }
+
+  h1 {
+    font-size: 27px; } }
 @media only screen and (min-width: 1400px) and (min-height: 900px) {
   #history .footer {
     display: block;
@@ -861,7 +835,7 @@ address {
     bottom: 0;
     width: 100%; }
 
-  #meat-page .footer-absolute {
+  #products-page .footer-absolute {
     position: absolute;
     bottom: 0;
     left: 0; } }

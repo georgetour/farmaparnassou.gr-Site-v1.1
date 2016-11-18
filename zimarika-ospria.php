@@ -5,19 +5,9 @@
 
     <title>Φάρμα Παρνασσού - Ζυμαρικά Όσπρια</title>
 
-    <!--Bootstrap-->
-    <link  href="css/bootstrap.min.css" rel="stylesheet" type="text/css" >
+    <?php include 'stylesheets.php'?>
 
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <script async src="scripts/index.js"></script>
-
-    <!--Custom style-->
-    <link href="css/non-main-pages/non-main-pages.css" rel="stylesheet" type="text/css">
-
-    <!--Font Awesome Icons-->
-    <link href="css/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-<body id="meat-page">
+<body id="products-page">
 <?php include 'top-bar.php'?>
 
 
@@ -69,7 +59,7 @@
                                     <h3>Όσπρια</h3>
                                 </div>
                             </div>
-                            <img class="img-responsive product-image" src="images/zimarika-ospria/zimarika-compressor(1).jpg" alt="Όσπρια">
+                            <img class="img-responsive product-image" src="images/zimarika-ospria/fakes.jpg" alt="Όσπρια">
                         </div>
                     </div><!--End Left or up column-->
                     <div class="col-xs-12 col-lg-9 product-text "><!--Right column-->

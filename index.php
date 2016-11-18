@@ -29,7 +29,7 @@
     <div id="maximage">
         <img  src="images/home-page/sheeps-hi-res-compressed.jpg" alt="Sheeps in farm background" />
         <img  src="images/home-page/cow-meat-compressed.jpg" alt="Cow meat background" />
-        <img  src="images/home-page/IMG_2794.jpg" alt="Making mounced meat background"  />
+            <img  src="images/home-page/george-kostas-compressor.jpg" alt="George and Kostas welcoming you"  />
         <img  src="images/home-page/cows-in-farm-compressor.jpg" alt="Cows in farm background" />
     </div>
     <!--End Animation image-->
@@ -40,27 +40,20 @@
      <div class="col-xs-5 col-sm-6 col-lg-8 ">
      <address class="hours"><!--Address and social media icons start --->
          <ul class="social-icons">
-            <li>
-                <a class="badge social facebook" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
-                <i class="fa fa-facebook fa-size"></i>
-                </a>
-            </li>
-            <li>
-                <a class="badge social twitter" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
-                <i class="fa fa-twitter fa-size"></i>
-                </a>
-            </li>
-            <li>
-                <a class="badge social instagram" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
-                <i class="fa fa-instagram fa-size"></i>
-                </a>
-            </li>
-            <li>
-                <a class="badge social pinterest" href="https://gr.linkedin.com/in/georgetourtsinakis" target="_blank">
-                <i class="fa fa-pinterest fa-size"></i>
-            </a>
-            </li>
-        </ul>
+             <li><a class="badge social facebook" href="https://www.facebook.com/farmaparnassou" target="_blank">
+                     <i class="fa fa-facebook fa-size"></i></a>
+             </li>
+             <li><a class="badge social twitter" href=" https://twitter.com/farmaparnassou" target="_blank">
+                     <i class="fa fa-twitter fa-size"></i></a>
+             </li>
+             <li><a class="badge social instagram" href=" https://www.instagram.com/farmaparnassou/?hl=en" target="_blank">
+                     <i class="fa fa-instagram fa-size"></i></a>
+             </li>
+             <li><a class="badge social pinterest" href="https://www.pinterest.com/farmaparnassou" target="_blank">
+                     <i class="fa fa-pinterest fa-size"></i>
+                 </a>
+             </li>
+         </ul>
          <div class="phone">
          <div>Τηλέφωνο : 2104830060</div>
              <div>Ωράριo</div>

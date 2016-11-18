@@ -1,6 +1,3 @@
-@font-face {
-  font-family: 'Greek';
-  src: url(../css/fonts/GFSSolomos.otf); }
 html {
   height: 100%;
   min-height: 100%; }
@@ -164,9 +161,6 @@ div.mc-image {
 .mc-old-browser .mc-image {
   overflow: hidden; }
 
-@font-face {
-  font-family: 'Greek';
-  src: url(../css/fonts/GFSSolomos.otf); }
 html {
   height: 100%;
   min-height: 100%; }
@@ -326,9 +320,6 @@ a {
 
   .footer-big-screens {
     display: none; } }
-@font-face {
-  font-family: 'Greek';
-  src: url(../css/fonts/GFSSolomos.otf); }
 html {
   height: 100%;
   min-height: 100%; }
@@ -479,9 +470,6 @@ a {
 
   .footer-big-screens {
     display: none; } }
-@font-face {
-  font-family: 'Greek';
-  src: url(../css/fonts/GFSSolomos.otf); }
 html {
   height: 100%;
   min-height: 100%; }
@@ -640,9 +628,6 @@ a {
 
   .footer-big-screens {
     display: none; } }
-@font-face {
-  font-family: 'Greek';
-  src: url(../css/fonts/GFSSolomos.otf); }
 html {
   height: 100%;
   min-height: 100%; }
@@ -801,9 +786,6 @@ a {
 
   .footer-big-screens {
     display: none; } }
-@font-face {
-  font-family: 'Greek';
-  src: url(../css/fonts/GFSSolomos.otf); }
 html {
   height: 100%;
   min-height: 100%; }

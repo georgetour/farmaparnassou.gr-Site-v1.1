@@ -3,21 +3,11 @@
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Φάρμα Παρνασσού - Κρέατα</title>
+    <title>Φάρμα Παρνασσού - Σάλτσες</title>
 
-    <!--Bootstrap-->
-    <link  href="css/bootstrap.min.css" rel="stylesheet" type="text/css" >
+    <?php include 'stylesheets.php'?>
 
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <script async src="scripts/index.js"></script>
-
-    <!--Custom style-->
-    <link href="css/non-main-pages/non-main-pages.css" rel="stylesheet" type="text/css">
-
-    <!--Font Awesome Icons-->
-    <link href="css/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-<body id="meat-page">
+<body id="products-page">
 <?php include 'top-bar.php'?>
 
 
@@ -42,13 +32,20 @@
                         </div>
                     </div><!--End Left or up column-->
                     <div class="col-xs-12 col-lg-9 product-text "><!--Right column-->
-                        <p>Στή Φάρμα Παρνασσού θα βρείτε ξεχωριστά ελληνικά κρασιά με προσωπικότητα και ευθύνη.
+                        <p>Στο κρεοπωλείο μας θα βρείτε μια εντυπωσιακή συλλογή από σάλτσες για όλους τους τύπους των ουρανίσκων διαλεγμένες μία μία με αγνά υλικά και χωρίς συντηρητικά.
                         </p>
 
-                        <p>Κρασιά από τα αμπελοτόπια μικρών οινοποιών με σεβασμό στην αρχαία αμπελουργική παράδοση.</p>
-                        <p>Στη Φάρμα Παρνασσού στόχος είναι ο συνδυάσμός του καλού κρασιού με το καλό φαγητό και η δημιουργία μιας γευστικής ισορροπίας. η δημιουργία δηλαδή ενός γευστικού συνόλου στο οποίο τα δύο στοιχεία αλληλοσυμπληρώνονται αρμονικα και απολαυστικά</p>
-                        <p>Ποικιλίες όπως Αγιωργίτικο Νεμέας, Ροδίτης με Σαββατιανό, Cabernet, Syrah, Merlot, Chardonnay, Ασύρτικο.</p>
+                        <p>Στο κρεοπωλείο μας θα βρείτε μια εντυπωσιακή συλλογή από σάλτσες για όλους τους τύπους των ουρανίσκων διαλεγμένες μία μία με αγνά υλικά και χωρίς συντηρητικά.</p>
+                        <ul>
+                            <li>Μουστάρδες</li>
+                            <li>Μαγιονέζες</li>
+                            <li>Ντρέσινγκς</li>
+                            <li>Συνοδευτικές Σάλτσες</li>
+                            <li>Σάλτσες Ντομάτας</li>
+                            <li>Γιαούρτια Γίδινα και Πρόβεια</li>
+                            <li>Βαλσάμικο</li>
 
+                        </ul>
                     </div>
                 </div>
             </section><!--End Saltses section-->
@@ -147,7 +144,7 @@
         })
 
         //Active class
-        $('#horizontal-menu li:nth-child(7) a').addClass("product-active");
+        $('#horizontal-menu li:nth-child(9) a').addClass("product-active");
         $('.footer').addClass("footer-absolute");
     });
 </script>
