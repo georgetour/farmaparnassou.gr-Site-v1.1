@@ -116,13 +116,13 @@
 
                     </ul>
                 </li>
-                <li><a class="arrow-angle" href="recipes.php">Συνταγές</a>
+                <li><a class="arrow-angle" href="ipiresies.php">Υπηρεσίες</a>
                 </li>
                 <li><a href="gastronomos-farma-parnassou.php">Τι είπαν για εμάς</a></li>
                 <li><a href="contact.php">Επικοινωνία</a></li>
             </ul>
             <footer class="footer-big-screens">
-                <div ><a href="copyrights.php">farmaparnassou.gr 2013-2016 All rights reserved</a><br> <a href="http://www.besmartbesimple.com/" target="_blank">Created by George Tourtsinakis</a></div>
+                <div ><a href="copyrights.php">&copy; farmaparnassou.gr 2013-2016 All rights reserved</a><br> <a href="http://www.besmartbesimple.com/" target="_blank">Created by George Tourtsinakis</a></div>
             </footer>
         </div><!-- /.navbar-collapse -->
 

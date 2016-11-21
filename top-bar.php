@@ -65,7 +65,7 @@
                         <li><a href="meli.php">Μέλι</a></li>
                     </ul>
                 </li>
-                <li><a href="http://about">Συνταγές</a></li>
+                <li><a href="ipiresies.php">Υπηρεσίες</a></li>
                 <li><a href="gastronomos-farma-parnassou.php">Τι είπαν για εμάς</a></li>
                 <li><a href="contact.php">Επικοινωνία</a></li>
             </ul>
