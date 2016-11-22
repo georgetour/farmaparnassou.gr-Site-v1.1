@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="images/imageedit.gif">
+    <?php include 'icon.php'?>
     <title>Farmaparnassou.gr - Ελληνικά Προϊόντα</title>
 
     <!--Bootstrap-->
@@ -23,7 +23,7 @@
 </head>
 
 <body>
-
+<?php include_once("analyticstracking.php") ?>
 <div id="fullPage" class="container"><!--Main container-->
     <!--Animation image-->
     <div id="maximage">
@@ -122,7 +122,7 @@
                 <li><a href="contact.php">Επικοινωνία</a></li>
             </ul>
             <footer class="footer-big-screens">
-                <div ><a href="copyrights.php">&copy; farmaparnassou.gr 2013-2016 All rights reserved</a><br> <a href="http://www.besmartbesimple.com/" target="_blank">Created by George Tourtsinakis</a></div>
+                <div ><a href="copyright.php">&copy; farmaparnassou.gr 2013-2016 All rights reserved</a><br> <a href="http://www.besmartbesimple.com/" target="_blank">Created by George Tourtsinakis</a></div>
             </footer>
         </div><!-- /.navbar-collapse -->
 

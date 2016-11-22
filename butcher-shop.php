@@ -2,12 +2,18 @@
 
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <?php include 'icon.php'?>
     <title>Φάρμα Παρνασσού - Το κρεοπωλείο μας</title>
 
     <?php include 'stylesheets.php'?>
 
+    <!--SEO-->
+    <meta name="description" content="Στο κρεοπωλείο μας Φάρμα Παρνασσού θα βρείτε κρέατα και προϊόντα ταυτόσημα με τη ζωή του Ελληνικού χωριού.">
+    <meta name="keywords" content="φαρμα παρνασσου,farma parnassou,farmaparnassou,κρεατα,Νεο Φαληρο,κρεατα Νεο Φαληρο,ελληνικα προϊοντα,ελληνικα κρεατα,κρεοπωλειο,κρεοπωλειο Νεο Φαληρο,κρεοπωλειο Πειραιας,κρεατα Πειραιας,κρεας,kreas,φαρμα,ελληνικο κρεοπωλειο,το κρεοπωλειο μας farma parnassou,το κρεοπωλειο μας φαρμα παρνασσου">
+    <meta name="author" content="Farma parnassou">
+
 <body id="butcher-shop-page">
+<?php include_once("analyticstracking.php") ?>
 <?php include 'top-bar.php'?>
 
 
@@ -25,7 +31,7 @@
                 </p>
                 <p>Στο κρεοπωλείο μας Φάρμα Παρνασσού θα βρείτε κρέατα και προϊόντα ταυτόσημα με τη ζωή του Ελληνικού χωριού.
                 </p>
-                <p class="emphasis">Εδώ, η ξεχωριστή γεύση από το καλοσιτεμένο μοσχάρι,
+                <p class="emphasis">Εδώ, η ξεχωριστή γεύση από το τρυφερό καλοσιτεμένο μοσχάρι,
                     το χωριάτικο χοιρινό, τον αλανιάρη κόκορα,
                     το άγριο κατσικάκι και το απάλο στην γεύση αρνάκι ξυπνούν πολύτιμες αναμνήσεις.
                     

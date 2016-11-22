@@ -2,22 +2,20 @@
 
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php include 'icon.php'?>
+    <title>Φάρμα Παρνασσού - Πνευματικά Δικαιώματα</title>
 
-    <title>Φάρμα Παρνασσού - Κρέατα</title>
+    <?php include 'stylesheets.php'?>
 
-    <!--Bootstrap-->
-    <link  href="css/bootstrap.min.css" rel="stylesheet" type="text/css" >
+    <!--SEO-->
+    <meta name="description" content="Φάρμα Παρνασσού πνευματικά δικαιώματα και όροι χρήσης.">
+    <meta name="keywords" content="φαρμα παρνασσου πνευματικα δικαωματα,φαρμα παρνασσου οροι χρησης,φαρμα παρνασσου copyright,farma parnassou copyright,farmaparnassou copyright">
+    <meta name="author" content="Farma parnassou">
 
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <script async src="scripts/index.js"></script>
 
-    <!--Custom style-->
-    <link href="css/non-main-pages/non-main-pages.css" rel="stylesheet" type="text/css">
-
-    <!--Font Awesome Icons-->
-    <link href="css/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 <body id="products-page" class="contact-page">
+<?php include_once("analyticstracking.php") ?>
 <?php include 'top-bar.php'?>
 
 

@@ -2,12 +2,18 @@
 
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <?php include 'icon.php'?>
     <title>Φάρμα Παρνασσού - Επικοινωνία</title>
 
     <?php include 'stylesheets.php'?>
 
+    <!--SEO-->
+    <meta name="description" content="Ελάτε στο κατάστημα μας. Τηλέφωνο : 2104830060, Διεύθυνση : Καραισκάκη 6 & Ειρήνης 33, Περιοχή : Νέο Φάληρο, Πειραιάς">
+    <meta name="keywords" content="φαρμα παρνασσου,farma parnassou,farmaparnassou,επικοινωνια farma parnassou,contact farma parnassou,epikoinonia φαρμα παρνασσου,epikoinonia φαρμα παρνασσου,επικοινωνια farmaparnassou,χαρτης φαρμα παρνασσου,χαρτης farma parnassou,farmaparnassou Neo Faliro,φαρμα παρνασσου Νεο Φαληρο,φαρμα παρνασσου Πειραιας,φαρμα παρνασσου ωραριο,φαρμα παρνασσου ειρηνης,farma parnassou eirinis,φαρμα παρνασσου τηλεφωνο,farma parnassou google maps">
+    <meta name="author" content="Farma parnassou">
+
 <body id="products-page" class="contact-page">
+<?php include_once("analyticstracking.php") ?>
 <?php include 'top-bar.php'?>
 
 
@@ -31,7 +37,7 @@
                             <p>Τρίτη-Πέμπτη-Παρασκευή  8:00-21:00</p>
                             <p id="email">
                                 <a href="mailto:farmaparnassou@yahoo.gr" target="_top">
-                                email : farmaparnassou@yahoo.gr</p>
+                                email : farmaparnassou@yahoo.gr</a></p>
                             </address>
                         </div>
                     </div><!--End Left or up column-->
@@ -44,8 +50,8 @@
 
             <!--Google map-->
             <section>
-                <div class="row">
-                    <h2 class=" product-category">Βρείτε μας στο χαρτη</h2>
+                <div class="">
+                    <h2 class=" product-category">Βρείτε μας στο χάρτη</h2>
                 </div>
             <iframe class=" google-map img-center " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3146.2498057297776!2d23.666897114496784!3d37.947952779728325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bc756e432087%3A0x2fb5a4e5dfbe6eb5!2zzpXOuc-Bzq7Ovc63z4IgzrrOsc65IM6azrHPgc6xz4rPg866zqzOus63LCDOoM61zrnPgc6xzrnOrM-CIDE4NSA0Nw!5e0!3m2!1sel!2sgr!4v1478954954714" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen></iframe>
             </section>

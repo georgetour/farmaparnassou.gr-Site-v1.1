@@ -2,12 +2,18 @@
 
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <?php include 'icon.php'?>
     <title>Φάρμα Παρνασσού - Σάλτσες</title>
 
     <?php include 'stylesheets.php'?>
 
+    <!--SEO-->
+    <meta name="description" content="Κρασιά από τα αμπελοτόπια μικρών οινοποιών με σεβασμό στην αρχαία αμπελουργική παράδοση.">
+    <meta name="keywords" content="φαρμα παρνασσου,farma parnassou,farmaparnassou,σαλτσες,σαλτσα,μουστάρδες,μαγιονέζες,ντρέσινγκς,συνοδευτικές σάλτσες,σάλτσες ντομάτας,βαλσάμικο,γιαουρτια γιδινα,γιαουρτια προβεια">
+    <meta name="author" content="Farma parnassou">
+
 <body id="products-page">
+<?php include_once("analyticstracking.php") ?>
 <?php include 'top-bar.php'?>
 
 
@@ -28,7 +34,7 @@
                                     <h3>Σάλτσες</h3>
                                 </div>
                             </div>
-                            <img class="img-responsive product-image" src="images/krasi/krasi.jpg" alt="Κρασιά">
+                            <img class="img-responsive product-image" src="images/saltses/sauce.jpeg" alt="Κρασιά">
                         </div>
                     </div><!--End Left or up column-->
                     <div class="col-xs-12 col-lg-9 product-text "><!--Right column-->
@@ -36,7 +42,7 @@
                         </p>
 
                         <p>Στο κρεοπωλείο μας θα βρείτε μια εντυπωσιακή συλλογή από σάλτσες για όλους τους τύπους των ουρανίσκων διαλεγμένες μία μία με αγνά υλικά και χωρίς συντηρητικά.</p>
-                        <ul>
+                        <ul class="list-size">
                             <li>Μουστάρδες</li>
                             <li>Μαγιονέζες</li>
                             <li>Ντρέσινγκς</li>

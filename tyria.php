@@ -2,12 +2,18 @@
 
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <?php include 'icon.php'?>
     <title>Φάρμα Παρνασσού - Τυριά</title>
 
     <?php include 'stylesheets.php'?>
 
+    <!--SEO-->
+    <meta name="description" content="Στο κρεοπωλείο μας θα βρείτε επιλεγμένες ποικιλίες Τυριών από μικρούς Έλληνες παραγωγούς.">
+    <meta name="keywords" content="φαρμα παρνασσου,farma parnassou,farmaparnassou,γαλακτοκομικα προϊοντα,τυριά,αιγοπρόβια φέτα,γίδινο τυρί,γραβιέρα ρεθύμνου,γραβιέρα βουτυράτη,κρητική ξινομυζήθρα,ξερό ανθότυρο,νωπό ανθότυρο,μοσχομυροδάτο γίδινο βούτυρο,μυζήθρα χωριάτικη,γιαούρτια γίδινα και πρόβεια,φορμαέλα αράχωβας παρνασσού, ημίσκληρο τυρί">
+    <meta name="author" content="Farma parnassou">
+
 <body id="products-page">
+<?php include_once("analyticstracking.php") ?>
 <?php include 'top-bar.php'?>
 
 
@@ -37,7 +43,7 @@
                         </p>
                         <p>Tα μοναδικά σε γεύση τυριά του τόπου μας αντιστέκονται στο πέρασμα του χρόνου χάρη στο μεράκι των τυροκόμων.</p>
                         <p>Η ζωνταμή μυρωδιά του καλού φρέσκου γάλακτος αποτυπωνεται και δίνει προσωπικότητα στα τυριά μας.</p>
-                        <ul>
+                        <ul class="list-size">
                             <li>Αιγοπρόβια Φέτα και γίδινο τυρί από την Αριδαία</li>
                             <li>Γραβιέρα Ρεθύμνου. Γραβιέρα βουτυράτη και µε γλυκιά ισορροπία ανάµεσα στο γλυκό και το πικάντικο</li>
                             <li>Κρητική Ξινομυζήθρα</li>

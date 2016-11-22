@@ -2,12 +2,18 @@
 
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <?php include 'icon.php'?>
     <title>Φάρμα Παρνασσού - Κρασιά</title>
 
     <?php include 'stylesheets.php'?>
 
+    <!--SEO-->
+    <meta name="description" content="Κρασιά από τα αμπελοτόπια μικρών οινοποιών με σεβασμό στην αρχαία αμπελουργική παράδοση.">
+    <meta name="keywords" content="φαρμα παρνασσου,farma parnassou,farmaparnassou,κρασι,κρασια,ελληνικα κρασια,αγιωριτικο,ροδιτης,cabernet,syrah,merlot,chardonnay,ασύρτικο">
+    <meta name="author" content="Farma parnassou">
+
 <body id="products-page">
+<?php include_once("analyticstracking.php") ?>
 <?php include 'top-bar.php'?>
 
 
@@ -32,11 +38,11 @@
                         </div>
                     </div><!--End Left or up column-->
                     <div class="col-xs-12 col-lg-9 product-text "><!--Right column-->
-                        <p>Στή Φάρμα Παρνασσού θα βρείτε ξεχωριστά ελληνικά κρασιά με προσωπικότητα και ευθύνη.
+                        <p>Στη Φάρμα Παρνασσού θα βρείτε ξεχωριστά ελληνικά κρασιά με προσωπικότητα και ευθύνη.
                         </p>
 
                         <p>Κρασιά από τα αμπελοτόπια μικρών οινοποιών με σεβασμό στην αρχαία αμπελουργική παράδοση.</p>
-                        <p>Στη Φάρμα Παρνασσού στόχος είναι ο συνδυάσμός του καλού κρασιού με το καλό φαγητό και η δημιουργία μιας γευστικής ισορροπίας. η δημιουργία δηλαδή ενός γευστικού συνόλου στο οποίο τα δύο στοιχεία αλληλοσυμπληρώνονται αρμονικα και απολαυστικά</p>
+                        <p>Στη Φάρμα Παρνασσού στόχος είναι ο συνδυάσμός του καλού κρασιού με το καλό φαγητό και η δημιουργία μιας γευστικής ισορροπίας. η δημιουργία δηλαδή ενός γευστικού συνόλου στο οποίο τα δύο στοιχεία αλληλοσυμπληρώνονται αρμονικα και απολαυστικά.</p>
                         <p>Ποικιλίες όπως Αγιωργίτικο Νεμέας, Ροδίτης με Σαββατιανό, Cabernet, Syrah, Merlot, Chardonnay, Ασύρτικο.</p>
 
                     </div>

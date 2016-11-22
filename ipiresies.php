@@ -2,12 +2,18 @@
 
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <?php include 'icon.php'?>
     <title>Φάρμα Παρνασσού - Υπηρεσίες</title>
 
     <?php include 'stylesheets.php'?>
 
+    <!--SEO-->
+    <meta name="description" content="Κρασιά από τα αμπελοτόπια μικρών οινοποιών με σεβασμό στην αρχαία αμπελουργική παράδοση.">
+    <meta name="keywords" content="φαρμα παρνασσου,farma parnassou,farmaparnassou,τροφοδοσια επιχειρησεων,τροφοδοσια εστιατοριων,τροφοδοσια μεζεδοπωλειων,τροφοδοσια σκαφων,τροφοδοσια ξενοδοχειων,catering">
+    <meta name="author" content="Farma parnassou">
+
 <body id="products-page">
+<?php include_once("analyticstracking.php") ?>
 <?php include 'top-bar.php'?>
 
 
