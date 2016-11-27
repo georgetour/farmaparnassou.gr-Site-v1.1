@@ -170,7 +170,7 @@ body {
     color: black; }
 
 #butcher-shop-page {
-  background: url("../../images/butcher-shop/kreopoleio-compressor.jpg") no-repeat;
+  background: url("../../images/butcher-shop/kreopoleio-compressor.jpg") no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover; }
@@ -369,25 +369,20 @@ address {
   margin-left: auto; }
 
 @media only screen and (max-width: 479px) {
-  #butcher-shop-page {
-    background: url("../../../images/butcher-shop/kreopoleio-compressor.jpg") no-repeat center center fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover; }
-    #butcher-shop-page .phone {
-      color: white; }
-    #butcher-shop-page h1 {
-      font-size: 25px; }
-    #butcher-shop-page .article-with-opacity {
-      border-radius: 10px;
-      margin-bottom: 20px;
-      background-color: rgba(0, 0, 0, 0.6);
-      color: white; }
-    #butcher-shop-page .emphasis {
-      font-style: italic;
-      font-weight: bold;
-      font-size: 18px;
-      font-family: Greek; }
+  #butcher-shop-page .phone {
+    color: white; }
+  #butcher-shop-page h1 {
+    font-size: 25px; }
+  #butcher-shop-page .article-with-opacity {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white; }
+  #butcher-shop-page .emphasis {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Greek; }
 
   .logo {
     width: 100px; }
@@ -406,8 +401,7 @@ address {
 
   .footer {
     padding: 5px;
-    margin-top: 30px;
-    height: 120px; }
+    margin-top: 30px; }
 
   .footer-rights {
     font-size: 10px;
@@ -435,20 +429,15 @@ address {
     right: 20px;
     z-index: 999; } }
 @media only screen and (min-width: 480px) and (max-width: 719px) {
-  #butcher-shop-page {
-    background: url("../../../images/butcher-shop/kreopoleio-compressor.jpg") no-repeat center center fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover; }
-    #butcher-shop-page .phone {
-      color: white; }
-    #butcher-shop-page h1 {
-      font-size: 25px; }
-    #butcher-shop-page .article-with-opacity {
-      border-radius: 10px;
-      margin-bottom: 20px;
-      background-color: rgba(0, 0, 0, 0.6);
-      color: white; }
+  #butcher-shop-page .phone {
+    color: white; }
+  #butcher-shop-page h1 {
+    font-size: 25px; }
+  #butcher-shop-page .article-with-opacity {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white; }
 
   .logo {
     width: 120px; }
@@ -461,9 +450,6 @@ address {
 
   .top-icons-nav {
     padding: 10px 0 8px 15px; }
-
-  .footer {
-    height: 130px; }
 
   .footer-rights {
     font-size: 10px;
@@ -503,21 +489,16 @@ address {
     right: 40px;
     z-index: 999; }
 
-  #butcher-shop-page {
-    background: url("../../../images/butcher-shop/kreopoleio-compressor.jpg") no-repeat center center fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover; }
-    #butcher-shop-page .phone {
-      color: white; }
-    #butcher-shop-page h1 {
-      font-size: 25px; }
-    #butcher-shop-page .article-with-opacity {
-      border-radius: 10px;
-      margin-top: 400px;
-      margin-bottom: 20px;
-      background-color: rgba(0, 0, 0, 0.6);
-      color: white; }
+  #butcher-shop-page .phone {
+    color: white; }
+  #butcher-shop-page h1 {
+    font-size: 25px; }
+  #butcher-shop-page .article-with-opacity {
+    border-radius: 10px;
+    margin-top: 400px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white; }
 
   .footer {
     bottom: 0;
@@ -532,21 +513,16 @@ address {
     width: 100%;
     height: 1100px; } }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  #butcher-shop-page {
-    background: url("../../../images/butcher-shop/kreopoleio-compressor.jpg") no-repeat center center fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover; }
-    #butcher-shop-page .phone {
-      color: white; }
-    #butcher-shop-page h1 {
-      font-size: 25px; }
-    #butcher-shop-page .article-with-opacity {
-      border-radius: 10px;
-      margin-top: 400px;
-      margin-bottom: 20px;
-      background-color: rgba(0, 0, 0, 0.6);
-      color: white; }
+  #butcher-shop-page .phone {
+    color: white; }
+  #butcher-shop-page h1 {
+    font-size: 25px; }
+  #butcher-shop-page .article-with-opacity {
+    border-radius: 10px;
+    margin-top: 400px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white; }
 
   #slide-nav .navbar-toggle {
     margin-right: 10px; }
@@ -554,9 +530,6 @@ address {
   #slide-nav .navbar-header {
     margin: 0 auto;
     padding: 0 30px; }
-
-  .footer {
-    height: 120px; }
 
   .logo {
     width: 120px; }
@@ -596,15 +569,10 @@ address {
   .contact-page .google-map {
     height: 500px; } }
 @media only screen and (width: 1024px) {
-  #butcher-shop-page {
-    background: url("../../../images/butcher-shop/kreopoleio-compressor.jpg") no-repeat center center fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover; }
-    #butcher-shop-page .phone {
-      color: white; }
-    #butcher-shop-page h1 {
-      font-size: 25px; }
+  #butcher-shop-page .phone {
+    color: white; }
+  #butcher-shop-page h1 {
+    font-size: 25px; }
 
   .iPad-portrait-left {
     margin-left: 72%; }
@@ -637,9 +605,6 @@ address {
   .phone, .hours-table {
     font-size: 25px; }
 
-  .footer {
-    height: 140px; }
-
   .navbar-default .navbar-nav > li > a {
     color: white; }
 
@@ -662,26 +627,21 @@ address {
   .contact-page .google-map {
     height: 600px; } }
 @media only screen and (min-width: 1025px) and (max-width: 1199px) {
-  #butcher-shop-page {
-    background: url("../../../images/butcher-shop/kreopoleio-compressor.jpg") no-repeat center center fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover; }
-    #butcher-shop-page .phone {
-      color: white; }
-    #butcher-shop-page h1 {
-      font-size: 27px; }
-    #butcher-shop-page .iPad-portrait-left {
-      margin-left: 72%; }
-    #butcher-shop-page .iPad-portrait-left {
-      width: 29.6666%; }
-    #butcher-shop-page .emphasis {
-      font-style: italic;
-      font-weight: bold;
-      font-size: 18px;
-      font-family: Greek; }
-    #butcher-shop-page .phone {
-      color: black; }
+  #butcher-shop-page .phone {
+    color: white; }
+  #butcher-shop-page h1 {
+    font-size: 27px; }
+  #butcher-shop-page .iPad-portrait-left {
+    margin-left: 72%; }
+  #butcher-shop-page .iPad-portrait-left {
+    width: 29.6666%; }
+  #butcher-shop-page .emphasis {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Greek; }
+  #butcher-shop-page .phone {
+    color: black; }
 
   #slide-nav .navbar-header {
     margin: 0 auto;
@@ -728,7 +688,7 @@ address {
     display: inline-block; }
 
   #butcher-shop-page .phone {
-    color: white; }
+    color: black; }
   #butcher-shop-page h1 {
     font-size: 27px; }
   #butcher-shop-page .iPad-portrait-left {
@@ -776,9 +736,6 @@ address {
   .fa-size {
     font-size: 25px !important; }
 
-  .footer {
-    height: 65px; }
-
   .footer-rights {
     font-size: 10px;
     text-align: center; }
@@ -822,6 +779,10 @@ address {
   margin-top: 100px; }
 
 @media only screen and (min-width: 1280px) and (min-height: 1024px) {
+  #butcher-shop-page .footer {
+    position: absolute;
+    bottom: 0; }
+
   footer {
     display: block;
     position: absolute;
@@ -843,6 +804,10 @@ address {
   #products-page .footer-absolute {
     position: absolute;
     bottom: 0;
-    left: 0; } }
+    left: 0; }
+
+  #butcher-shop-page .footer {
+    position: absolute;
+    bottom: 0; } }
 
 /*# sourceMappingURL=non-main-pages.css.map */

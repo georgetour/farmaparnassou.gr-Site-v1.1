@@ -31,6 +31,12 @@
 
 
 @media only screen and (min-width:1280px) and (min-height: 1024px ){
+  #butcher-shop-page {
+    .footer {
+      position: absolute;
+      bottom: 0;
+    }
+  }
   footer {
     display: block;
     position: absolute;
@@ -65,5 +71,12 @@
     position: absolute;
     bottom: 0;
     left: 0;
+  }
+
+  #butcher-shop-page {
+    .footer {
+      position: absolute;
+      bottom: 0;
+    }
   }
 }
