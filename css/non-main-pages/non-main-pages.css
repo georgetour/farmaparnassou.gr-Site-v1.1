@@ -697,7 +697,7 @@ address {
     width: 29.6666%; }
 
   #history .article-with-opacity {
-    height: 460px; }
+    height: 100%; }
   #history .image-figure {
     margin-top: 0;
     height: 460px; }
