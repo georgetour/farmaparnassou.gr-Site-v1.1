@@ -11,7 +11,8 @@
     <meta name="description" content="H οικογένεια Μιχάλη ξεκίνησε το 2010 στο Νέο Φάληρο το νέο τους κρεοπωλείο «Φάρμα Παρνασσού» έχοντας ώς παρακαταθήκη το καλύτερο χασάπικο της Λιβαδειάς.">
     <meta name="keywords" content="φαρμα παρνασσου,farma parnassou,farmaparnassou,κρεατα,Νεο Φαληρο,κρεατα Νεο Φαληρο,ελληνικα προϊοντα,ελληνικα κρεατα,κρεοπωλειο,κρεοπωλειο Νεο Φαληρο,κρεοπωλειο Πειραιας,κρεατα Πειραιας,κρεας,kreas,φαρμα,ελληνικο κρεοπωλειο,διατροφη,ιστορια φαρμας παρνασσου,history farmaparnassou,Constantinos Michalis,George Michalis">
     <meta name="author" content="Farma parnassou">
-
+	
+<style>#history .footer{position:relative;}</style>
 <body id="history">
 <?php include_once("analyticstracking.php") ?>
 <!--Top bar with social media icons and navbar-->
